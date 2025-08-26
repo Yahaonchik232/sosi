@@ -99,18 +99,12 @@ const Header = () => {
               </div>
               <div className="frame1196-container110">
                 <span className="frame1196-text106">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Адрес: пл. Незав��симости, 1, Одесса, Одесская область, 65000',
-                    }}
-                  ></span>
+                  <span className="frame1196-text106-bold">Адрес:</span>
+                  <span className="frame1196-text106-normal"> пл. Независимости, 1, Одесса, Одесская область, 65000</span>
                 </span>
                 <span className="frame1196-text107">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Пн-Вс: 9:00-21:00',
-                    }}
-                  ></span>
+                  <span className="frame1196-text107-bold">Пн-Вс:</span>
+                  <span className="frame1196-text107-normal"> 9:00-21:00</span>
                 </span>
               </div>
               <svg
@@ -390,14 +384,27 @@ const Header = () => {
             font-weight: 300;
             letter-spacing: 1.5px;
           }
+          .frame1196-text106-bold {
+            font-weight: 500;
+          }
+          .frame1196-text106-normal {
+            font-weight: 300;
+          }
           .frame1196-text107 {
             fill: rgb(255, 255, 255);
             color: rgb(255, 255, 255);
             font-size: 12px;
-            align-self: center;
+            align-self: flex-start;
             font-family: 'Roboto';
             font-weight: 300;
             letter-spacing: 1.5px;
+            text-align: left;
+          }
+          .frame1196-text107-bold {
+            font-weight: 500;
+          }
+          .frame1196-text107-normal {
+            font-weight: 300;
           }
           .frame1196-icon100 {
             left: -9px;

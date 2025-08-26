@@ -34,7 +34,7 @@ const Frame1196 = (props) => {
             <button type="button" className="frame1196-button1 button">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: 'Заказать мастера',
+                  __html: 'Заказать мас��ера',
                 }}
               ></span>
             </button>
@@ -66,7 +66,7 @@ const Frame1196 = (props) => {
             </a>
             <a href="/1/NE GREET VODU.html" className="frame1196-container114">
               <h3 className="frame1196-text113">
-                Стиральная машина не греет воду
+                Стиральная машина не гре��т воду
               </h3>
               <div className="frame1196-arrow11">
                 <svg
@@ -128,7 +128,7 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Стиральная машина шумит п���и отжиме"
+                alt="Стир��льная машина шумит п���и отжиме"
                 src="/problems/4-300h.webp"
                 loading="eager"
                 className="frame1196-image18"
@@ -136,7 +136,7 @@ const Frame1196 = (props) => {
             </a>
             <a href="/2/NE VKLUCHAETSA.html" className="frame1196-container117">
               <h3 className="frame1196-text116">
-                Стира��ьн��я машина не включ��ется
+                Стира��ьн��я ма��ина не включ��ется
               </h3>
               <div className="frame1196-arrow14">
                 <svg
@@ -232,7 +232,7 @@ const Frame1196 = (props) => {
             </a>
             <a href="/3/NE OTKRIVAETSA DVERCA.html" className="frame1196-container121">
               <h3 className="frame1196-text120">
-                У стиральной машины не открывается дверца
+                У ��тиральной машины не открывается дверца
               </h3>
               <div className="frame1196-arrow18">
                 <svg
@@ -256,7 +256,7 @@ const Frame1196 = (props) => {
             </a>
             <a href="/nekrutitbaraban" className="frame1196-container122">
               <h3 className="frame1196-text121">
-                Стиральная машина не кру��ит барабан
+                Стиральная машина не кру��ит бара��ан
               </h3>
               <div className="frame1196-arrow19">
                 <svg
@@ -280,11 +280,10 @@ const Frame1196 = (props) => {
             </a>
           </article>
         </section>
-        <div className="footer-isolate">
         <section className="frame1196-container123">
           <p className="frame1196-text122">
-            <span className="frame1196-text123">В</span>
-            <span className="frame1196-text124">РемСтирМаш </span>
+            <span className="frame1196-text123">В </span>
+            <span className="frame1196-text124">РемСтирМаш</span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
               мы заботимся о надёжной работе вашей техники во всех уголках
@@ -1423,7 +1422,7 @@ const Frame1196 = (props) => {
                 </span>
               </div>
               <div className="frame1196-container147">
-                <span className="frame1196-text213">от 800 грн</span>
+                <span className="frame1196-text213">от 800 гр��</span>
                 <svg
                   width="100%"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1598,13 +1597,12 @@ const Frame1196 = (props) => {
             </svg>
           </section>
         </section>
-        </div>
         <section className="frame1196-remont-vsehmar">
           <div className="frame1196-remont-vseh-marok">
             <h2 className="frame1196-text215">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: 'Ремонтируем все марки',
+                  __html: 'Ремонтируем все ма��ки',
                 }}
               ></span>
             </h2>
@@ -1613,7 +1611,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container150">
               <Script
                 html={`<style>
-/* Для экранов до 767px включительн�� */
+/* Для экранов ��о 767px включительн�� */
 @media (max-width: 767px) {
     @keyframes scroll {
         from {
@@ -1700,7 +1698,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Siemens в Оде��се - профессиональный сервис"
+                  alt="Ремонт стиральных машин Siemens в Оде���се - профессиональный сервис"
                   src="/brands/image%203823125-200h.webp"
                   loading="eager"
                   className="frame1196-image39"
@@ -1716,7 +1714,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="��емонт стиральных машин Beko в Одессе - пр��фессиональ��ый ��ервис"
+                  alt="��емонт стиральных машин Beko в Одессе - пр��фессиональ��ый ��ерви��"
                   src="/brands/image%203823127-200h.webp"
                   loading="eager"
                   className="frame1196-image41"
@@ -1724,7 +1722,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральны�� ����шин Aeg в Од����ссе - профессиональный сервис"
+                  alt="Ремонт стиральны��� ����шин Aeg в Од����ссе - профессиональный сервис"
                   src="/brands/image%203823128-200h.webp"
                   loading="eager"
                   className="frame1196-image42"
@@ -3002,7 +3000,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container187">
               <div className="frame1196-container188">
                 <figcaption className="frame1196-text230">
-                  Вышел из строя нагре��ательный элемент на Bosch
+                  Вышел из ст��оя нагре��ательный элемент на Bosch
                 </figcaption>
               </div>
             </div>
@@ -3023,7 +3021,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container193">
               <div className="frame1196-container194">
                 <figcaption className="frame1196-text233">
-                  Замена втулки крестовины на LG
+                  ��амена втулки крестовины на LG
                 </figcaption>
               </div>
             </div>
@@ -3197,7 +3195,7 @@ to {transform: translateX(-2620px);}}
               <p className="frame1196-text240">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: '99% поломок устраняем на месте за 30-60 минут. Только редкие случаи требуют заказа специфических деталей и повторного визита через 1-2 дня',
+                    __html: '99% поломок устраняем на месте за 30-60 минут. Только редкие случаи требуют заказа специфических деталей и повтор��ого визита через 1-2 дня',
                   }}
                 ></span>
               </p>
@@ -3512,7 +3510,7 @@ to {transform: translateX(-2620px);}}
             <span className="textglavitogi frame1196-text250">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: 'Ремонт стиральных машин в сервисном центре "Ваше Название" в Одессе',
+                  __html: 'Ремонт стира��ьных машин в сервисном центре "Ваше Н��звание" в Одессе',
                 }}
               ></span>
             </span>
@@ -3570,7 +3568,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Используем современное оборудование и точную диагностику.',
+                    __html: 'Используем сов��еменное оборудование и точную диагностику.',
                   }}
                 ></span>
               </span>
@@ -3604,7 +3602,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Машина не слива��т воду — проблема с помпой или засор сл��вной системы.',
+                    __html: 'Машина не слива��т в��ду — проблема с помпой или засор сл����вной системы.',
                   }}
                 ></span>
               </span>
@@ -4267,7 +4265,7 @@ to {transform: translateX(-2620px);}}
               </div>
               <div className="frame1196-container237">
                 <iframe
-                  src="https://www.google.com/maps?q=пл. Н��зависимости, 1, Одесса, Одесская область, 65000&amp;output=embed"
+                  src="https://www.google.com/maps?q=пл. Н��зависимости, 1, Одесса, Одес��кая область, 65000&amp;output=embed"
                   address="пл. Незави����имости, 1, Одесса, Одесская область, 65000"
                   className="frame1196-google-maps"
                 ></iframe>
@@ -4301,7 +4299,7 @@ to {transform: translateX(-2620px);}}
         </div>
         <span className="frame1196-text291">
           <span className="frame1196-text292">&quot;Ва���е название&quot;</span>
-          <span>: сервис по ремонту стир��льных ма��ин</span>
+          <span>: сервис по ре��онту стир��льных ма��ин</span>
           <br />
           <span>© 2025</span>
         </span>
@@ -5039,7 +5037,7 @@ to {transform: translateX(-2620px);}}
             background-image: url('/backgrounds/dada.png');
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: right center;
             justify-content: center;
           }
           .frame1196-text122 {
@@ -7563,8 +7561,8 @@ to {transform: translateX(-2620px);}}
             background-color: #fefef9;
           }
           .frame1196-text240 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            fill: #343434;
+            color: #343434;
             width: auto;
             height: auto;
             font-size: 15px;
@@ -7714,8 +7712,8 @@ to {transform: translateX(-2620px);}}
             background-color: #fefef9;
           }
           .frame1196-text244 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            fill: #343434;
+            color: #343434;
             width: auto;
             height: auto;
             font-size: 15px;
@@ -7791,8 +7789,8 @@ to {transform: translateX(-2620px);}}
             background-color: #fefef9;
           }
           .frame1196-text246 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            fill: #343434;
+            color: #343434;
             width: auto;
             height: auto;
             font-size: 15px;
@@ -7867,8 +7865,8 @@ to {transform: translateX(-2620px);}}
             background-color: #fefef9;
           }
           .frame1196-text248 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            fill: #343434;
+            color: #343434;
             width: auto;
             height: auto;
             font-size: 15px;
@@ -8723,7 +8721,7 @@ to {transform: translateX(-2620px);}}
               background-image: url('/backgrounds/dada.png');
               background-size: cover;
               background-repeat: no-repeat;
-              background-position: center center;
+              background-position: right center;
             }
             .frame1196-text122 {
               font-size: 17px;
@@ -9389,7 +9387,7 @@ to {transform: translateX(-2620px);}}
               background-image: url('/backgrounds/dada.png');
               background-size: cover;
               background-repeat: no-repeat;
-              background-position: center center;
+              background-position: right center;
             }
             .frame1196-text122 {
               font-size: 17px;
@@ -10165,7 +10163,7 @@ to {transform: translateX(-2620px);}}
               background-image: url('/backgrounds/dada.png');
               background-size: cover;
               background-repeat: no-repeat;
-              background-position: center center;
+              background-position: right center;
             }
             .frame1196-text122 {
               color: rgb(55, 55, 55);
@@ -11569,7 +11567,7 @@ to {transform: translateX(-2620px);}}
             padding-bottom: 0 !important;
           }
 
-          /* Показывать активные от��еты с эффектом разворачивания */
+          /* Показывать активные от��еты с эффектом развор��чивания */
           .frame1196-otvet1.faq-active,
           .frame1196-otvet2.faq-active,
           .frame1196-otvet3.faq-active,
