@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
-import { useTranslations } from 'next-intl'
 
 const Header = () => {
-  const translate = useTranslations()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -19,7 +17,7 @@ const Header = () => {
               <span className="frame1196-text100">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text__OMe1X'),
+                    __html: 'Ваше название',
                   }}
                 ></span>
               </span>
@@ -51,7 +49,7 @@ const Header = () => {
                 <span className="frame1196-text101">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_4CyZ6E'),
+                      __html: 'Главная',
                     }}
                   ></span>
                 </span>
@@ -60,7 +58,7 @@ const Header = () => {
                 <span className="frame1196-text102">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_Mj52fk'),
+                      __html: 'Выкуп б/у машин',
                     }}
                   ></span>
                 </span>
@@ -69,7 +67,7 @@ const Header = () => {
                 <span className="frame1196-text103">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_p-Mb2v'),
+                      __html: 'Статьи',
                     }}
                   ></span>
                 </span>
@@ -86,14 +84,14 @@ const Header = () => {
                   <span className="frame1196-text104">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_rHU5eg'),
+                        __html: '+38 (067) 123-45-67',
                       }}
                     ></span>
                   </span>
                   <span className="frame1196-text105">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_dfPjF9'),
+                        __html: '+38 (067) 123-45-67',
                       }}
                     ></span>
                   </span>
@@ -103,14 +101,14 @@ const Header = () => {
                 <span className="frame1196-text106">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_lEhEem'),
+                      __html: 'Адрес: пл. Незав��симости, 1, Одесса, Одесская область, 65000',
                     }}
                   ></span>
                 </span>
                 <span className="frame1196-text107">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_7fEvzG'),
+                      __html: 'Пн-Вс: 9:00-21:00',
                     }}
                   ></span>
                 </span>
@@ -209,7 +207,7 @@ const Header = () => {
 
       <style jsx>
         {`
-          /* Уникальный контейнер компонента */
+          /* У��икальный контейнер компонента */
           .header-component {
             width: 100%;
           }
@@ -430,7 +428,7 @@ const Header = () => {
             position: absolute;
           }
 
-          /* Стили для бургер-меню */
+          /* С��или для бургер-меню */
           .frame1196-burger-menu {
             width: 35px;
             height: 35px;

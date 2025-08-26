@@ -1,11 +1,9 @@
 import React, { Fragment } from 'react'
-import { useTranslations } from 'next-intl'
 import Blue from './blue'
 import Blue1 from './blue1'
 import Blue2 from './blue2'
 
 const Footer = () => {
-  const translate = useTranslations('Translation')
 
   return (
     <div className="footer-container">
@@ -15,7 +13,7 @@ const Footer = () => {
           <span className="footer-text-brand">РемСтирМаш</span>
           <span className="footer-text-part2"></span>
           <span className="footer-text-part3">
-            мы забо��имся о надёжной работе вашей техники во всех уголках Одессы.
+            мы з��бо��имся о надёжной работе вашей техники во всех уголках Одессы.
           </span>
           <br className="footer-text-break1" />
           <span className="footer-text-part4">
@@ -107,7 +105,7 @@ const Footer = () => {
               <strong className="footer-service-title1">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_SQJleR'),
+                    __html: 'Бесплатный выезд',
                   }}
                 ></span>
               </strong>
@@ -144,7 +142,7 @@ const Footer = () => {
               <p className="footer-service-desc1">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_3gh6E-'),
+                    __html: 'Бесплатный выезд специалиста в любой район города',
                   }}
                 ></span>
               </p>
@@ -162,7 +160,7 @@ const Footer = () => {
               <strong className="footer-service-title2">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_sPOPaR'),
+                    __html: 'Честные цены',
                   }}
                 ></span>
               </strong>
@@ -199,7 +197,7 @@ const Footer = () => {
               <p className="footer-service-desc2">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_wPqCMV'),
+                    __html: 'Детально обсуждаем объем работ и стоимость до начала ремонта.',
                   }}
                 ></span>
               </p>
@@ -217,7 +215,7 @@ const Footer = () => {
               <strong className="footer-service-title3">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_3Jll31'),
+                    __html: 'Ремонт в день обращения',
                   }}
                 ></span>
               </strong>
@@ -254,7 +252,7 @@ const Footer = () => {
               <p className="footer-service-desc3">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_jCqOeo'),
+                    __html: 'Не нужно ждать несколько дней - ваша техника заработает уже сегодня.',
                   }}
                 ></span>
               </p>
@@ -345,7 +343,7 @@ const Footer = () => {
           <h2 className="footer-pricing-title">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_B7_4uy'),
+                __html: 'Цены',
               }}
             ></span>
           </h2>
@@ -359,7 +357,7 @@ const Footer = () => {
                 <span className="footer-price-text1">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_UpNm01'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -370,7 +368,7 @@ const Footer = () => {
                 <span className="footer-price-text2">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_dWgHNj'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -381,7 +379,7 @@ const Footer = () => {
                 <span className="footer-price-text3">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_hpKQz7'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -392,7 +390,7 @@ const Footer = () => {
                 <span className="footer-price-text4">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_CHsYQJ'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -405,7 +403,7 @@ const Footer = () => {
                 <span className="footer-price-text5">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_gD6v3W'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -416,7 +414,7 @@ const Footer = () => {
                 <span className="footer-price-text6">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_7O9j8J'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -427,7 +425,7 @@ const Footer = () => {
                 <span className="footer-price-text7">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_L8ZJlF'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -438,7 +436,7 @@ const Footer = () => {
                 <span className="footer-price-text8">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_EbNXZO'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -451,7 +449,7 @@ const Footer = () => {
                 <span className="footer-price-text9">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_a9kwYR'),
+                      __html: 'Ремонт сливного насоса',
                     }}
                   ></span>
                 </span>
@@ -462,7 +460,7 @@ const Footer = () => {
                 <span className="footer-price-text10">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_nOE1Wm'),
+                      __html: 'от 500 грн',
                     }}
                   ></span>
                 </span>
@@ -473,7 +471,7 @@ const Footer = () => {
                 <span className="footer-price-text11">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_AG3K5c'),
+                      __html: '7',
                     }}
                   ></span>
                 </span>
@@ -484,7 +482,7 @@ const Footer = () => {
                 <span className="footer-price-text12">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_xNPHs_'),
+                      __html: 'Вызвать мастера',
                     }}
                   ></span>
                 </span>
@@ -497,7 +495,7 @@ const Footer = () => {
                 <span className="footer-price-text13">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_tBr3N5'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -508,7 +506,7 @@ const Footer = () => {
                 <span className="footer-price-text14">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_RcDdkf'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -519,7 +517,7 @@ const Footer = () => {
                 <span className="footer-price-text15">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_zs4s5m'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -530,7 +528,7 @@ const Footer = () => {
                 <span className="footer-price-text16">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_xwBB2x'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>

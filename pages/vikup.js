@@ -1,8 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { useTranslations } from 'next-intl'
-
 const Page1 = (props) => {
   return (
     <>
@@ -39,7 +37,7 @@ const Page1 = (props) => {
                     />
                   </span>
                   <span className="page1-text16">
-                    — продайте нам и получите реальную выгоду! Мы покупаем любые
+                    — продайте нам и получите реальную выгоду!Мы покупаем любые
                     стиральные машины —
                   </span>
                   <span>

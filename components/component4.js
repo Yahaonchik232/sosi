@@ -1,10 +1,8 @@
 import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-import { useTranslations } from 'next-intl'
 
 const Component4 = (props) => {
-  const translate = useTranslations()
   return (
     <>
       <div className={`component4-container1 ${props.rootClassName} `}>
@@ -15,7 +13,7 @@ const Component4 = (props) => {
                 <span className="component4-text6">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_PXBbjY'),
+                      __html: '1',
                     }}
                   ></span>
                 </span>
@@ -30,7 +28,7 @@ const Component4 = (props) => {
                 <span className="component4-text4">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_cjMEJ_'),
+                      __html: '\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f (\u043f\u0440\u0438 \u0440\u0435\u043c\u043e\u043d\u0442\u0435)',
                     }}
                   ></span>
                 </span>
@@ -45,7 +43,7 @@ const Component4 = (props) => {
                 <span className="component4-text5">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_v6N61i'),
+                      __html: '\u041e\u0442 400 \u0433\u0440\u043d',
                     }}
                   ></span>
                 </span>

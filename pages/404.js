@@ -1,8 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { useTranslations } from 'next-intl'
-
 const NotFound = (props) => {
   return (
     <>
@@ -64,14 +62,3 @@ const NotFound = (props) => {
 }
 
 export default NotFound
-
-export async function getStaticProps(context) {
-  const messages = (await import('/locales/' + context.locale + '.json'))
-    .default
-  return {
-    props: {
-      messages,
-      ...context,
-    },
-  }
-}

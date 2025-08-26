@@ -1,8 +1,6 @@
 import React from 'react'
-import { useTranslations } from 'next-intl'
 
 const MainFooter = () => {
-  const translate = useTranslations()
 
   return (
     <div className="main-footer-isolation">
@@ -12,7 +10,7 @@ const MainFooter = () => {
             <strong className="frame1196-text281">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_3-EdNW'),
+                  __html: 'Наши контакты',
                 }}
               ></span>
             </strong>
@@ -21,14 +19,14 @@ const MainFooter = () => {
                 <p className="frame1196-text282">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_OdbpzQ'),
+                      __html: 'Тел.: +38 (098) 467-13-52',
                     }}
                   ></span>
                 </p>
                 <p className="frame1196-text283">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_d2YfFM'),
+                      __html: 'Тел.: +38 (098) 467-13-52',
                     }}
                   ></span>
                 </p>
@@ -38,14 +36,14 @@ const MainFooter = () => {
               <p className="frame1196-text284">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_BqrkpK'),
+                    __html: 'Адрес: пл. Независимости, 1, Одесса, Одесская область, 65000',
                   }}
                 ></span>
               </p>
               <p className="frame1196-text285">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('Text_THlJwj'),
+                    __html: 'E-mail: remstirmash@gmail.com',
                   }}
                 ></span>
               </p>
@@ -53,7 +51,7 @@ const MainFooter = () => {
             <p className="frame1196-text286">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('Text_kzJcle'),
+                  __html: 'Пн-Вс: 9:00-21:00',
                 }}
               ></span>
             </p>
@@ -80,14 +78,14 @@ const MainFooter = () => {
               <strong className="frame1196-text287">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_r6CUKn'),
+                    __html: 'Оставьте заявку на бесплатный выезд мастера',
                   }}
                 ></span>
               </strong>
               <button type="button" className="frame1196-button5 button">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9_pRC8'),
+                    __html: 'Заказать мастера',
                   }}
                 ></span>
               </button>
@@ -104,21 +102,21 @@ const MainFooter = () => {
             <span className="frame1196-text288">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_zB309I'),
+                  __html: 'Главная',
                 }}
               ></span>
             </span>
             <span className="frame1196-text289">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_PkWHKj'),
+                  __html: 'Выкуп б/y машин',
                 }}
               ></span>
             </span>
             <span className="frame1196-text290">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_g_eY17'),
+                  __html: 'Статьи',
                 }}
               ></span>
             </span>

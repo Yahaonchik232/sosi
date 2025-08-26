@@ -1,10 +1,8 @@
 import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-import { useTranslations } from 'next-intl'
 
 const Blue = (props) => {
-  const translate = useTranslations()
   return (
     <>
       <div className={`blue-blue ${props.rootClassName} `}>
@@ -16,7 +14,7 @@ const Blue = (props) => {
                   <span className="blue-text7">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_kQRtWO'),
+                        __html: '1',
                       }}
                     ></span>
                   </span>
@@ -30,7 +28,7 @@ const Blue = (props) => {
                 <span className="blue-text5">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_EAGYnM'),
+                      __html: 'Text',
                     }}
                   ></span>
                 </span>
@@ -45,7 +43,7 @@ const Blue = (props) => {
                 <span className="blue-text8">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_cLr04n'),
+                      __html: 'Бесплатно',
                     }}
                   ></span>
                 </span>
@@ -69,7 +67,7 @@ const Blue = (props) => {
                   <span className="blue-text6">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_kCSYbu'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>

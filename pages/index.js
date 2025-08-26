@@ -2,7 +2,6 @@ import React, { Fragment, useState } from 'react'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
-import { useTranslations } from 'next-intl'
 
 import Blue2 from '../components/blue2'
 import Blue1 from '../components/blue1'
@@ -10,7 +9,11 @@ import Header from '../components/Header'
 import Footer from '../components/footer'
 
 const Frame1196 = (props) => {
-  const translate = useTranslations()
+  const [activeFAQ, setActiveFAQ] = useState(null)
+
+  const toggleFAQ = (faqId) => {
+    setActiveFAQ(activeFAQ === faqId ? null : faqId)
+  }
 
   return (
     <>
@@ -31,7 +34,7 @@ const Frame1196 = (props) => {
             <button type="button" className="frame1196-button1 button">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_usqEqf'),
+                  __html: 'Заказать мастера',
                 }}
               ></span>
             </button>
@@ -133,7 +136,7 @@ const Frame1196 = (props) => {
             </a>
             <a href="/2/NE VKLUCHAETSA.html" className="frame1196-container117">
               <h3 className="frame1196-text116">
-                Стиральная машина не включ��ется
+                Стиральн��я машина не включ��ется
               </h3>
               <div className="frame1196-arrow14">
                 <svg
@@ -375,7 +378,7 @@ const Frame1196 = (props) => {
                 <strong className="frame1196-text133">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_SQJleR'),
+                      __html: 'Бесплатный выезд',
                     }}
                   ></span>
                 </strong>
@@ -412,7 +415,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text134">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_3gh6E-'),
+                      __html: 'Бесплатный выезд специалиста в любой район города',
                     }}
                   ></span>
                 </p>
@@ -429,7 +432,7 @@ const Frame1196 = (props) => {
                 <strong className="frame1196-text135">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_sPOPaR'),
+                      __html: 'Честные цены',
                     }}
                   ></span>
                 </strong>
@@ -466,7 +469,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text136">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_wPqCMV'),
+                      __html: 'Детально обсуждаем объем работ и стоимость до начала ремонта.',
                     }}
                   ></span>
                 </p>
@@ -483,7 +486,7 @@ const Frame1196 = (props) => {
                 <strong className="frame1196-text137">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_3Jll31'),
+                      __html: 'Ремонт в день обращения',
                     }}
                   ></span>
                 </strong>
@@ -520,7 +523,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text138">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_jCqOeo'),
+                      __html: 'Не нужно ждать несколько дней - ваша техника заработает уже сегодня.',
                     }}
                   ></span>
                 </p>
@@ -605,7 +608,7 @@ const Frame1196 = (props) => {
             <h2 className="frame1196-text139">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_B7_4uy'),
+                  __html: 'Цены',
                 }}
               ></span>
             </h2>
@@ -721,7 +724,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text151">3</span>
                 </div>
                 <span className="frame1196-text152">
-                  Диагностика оборудования (при отказе от ремонта)
+                  Диагностика о��орудования (при отказе от ремонта)
                 </span>
               </div>
               <div className="frame1196-container143">
@@ -772,7 +775,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text155">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_fkE4P_'),
+                        __html: 'Мелкий ремонт',
                       }}
                     ></span>
                   </span>
@@ -783,7 +786,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text156">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_fDeI_7'),
+                        __html: 'от 400 грн',
                       }}
                     ></span>
                   </span>
@@ -794,7 +797,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text157">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_8O9oiM'),
+                        __html: '4',
                       }}
                     ></span>
                   </span>
@@ -805,7 +808,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text158">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_oppxi7'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -818,7 +821,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text159">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_VIAn41'),
+                        __html: 'Ремонт модуля управления',
                       }}
                     ></span>
                   </span>
@@ -829,7 +832,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text160">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_qohy76'),
+                        __html: 'от 1000 грн',
                       }}
                     ></span>
                   </span>
@@ -840,7 +843,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text161">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_1BVl2f'),
+                        __html: '5',
                       }}
                     ></span>
                   </span>
@@ -851,7 +854,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text162">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_Qheb7H'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -864,7 +867,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text163">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_8HAHsg'),
+                        __html: 'Чистка фильтров и патрубков',
                       }}
                     ></span>
                   </span>
@@ -875,7 +878,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text164">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_KXvxeI'),
+                        __html: 'от 400 грн',
                       }}
                     ></span>
                   </span>
@@ -886,7 +889,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text165">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_b9-gnz'),
+                        __html: '6',
                       }}
                     ></span>
                   </span>
@@ -897,7 +900,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text166">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_fc5N7f'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -910,7 +913,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text167">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_a9kwYR'),
+                        __html: 'Ремонт сливного насо��а',
                       }}
                     ></span>
                   </span>
@@ -921,7 +924,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text168">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_nOE1Wm'),
+                        __html: 'от 500 грн',
                       }}
                     ></span>
                   </span>
@@ -932,7 +935,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text169">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_AG3K5c'),
+                        __html: '7',
                       }}
                     ></span>
                   </span>
@@ -943,7 +946,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text170">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_xNPHs_'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -956,7 +959,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text171">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_ju588k'),
+                        __html: 'Замена сливного насоса (с учетом стоимости насоса)',
                       }}
                     ></span>
                   </span>
@@ -967,7 +970,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text172">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_VirITd'),
+                        __html: 'от 450 грн',
                       }}
                     ></span>
                   </span>
@@ -978,7 +981,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text173">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_eW2IGu'),
+                        __html: '8',
                       }}
                     ></span>
                   </span>
@@ -989,7 +992,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text174">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_dpKFMb'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1002,7 +1005,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text175">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_dEWfqO'),
+                        __html: 'Устранение постороннего предмета из барабана, фильтра или насоса',
                       }}
                     ></span>
                   </span>
@@ -1013,7 +1016,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text176">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_sgvW_Y'),
+                        __html: 'от 500 грн',
                       }}
                     ></span>
                   </span>
@@ -1024,7 +1027,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text177">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_3O3apT'),
+                        __html: '9',
                       }}
                     ></span>
                   </span>
@@ -1035,7 +1038,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text178">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_IUWish'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1048,7 +1051,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text179">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_42z_sP'),
+                        __html: 'Замена нагревательного элемента (с учетом стоимости ТЭНа)',
                       }}
                     ></span>
                   </span>
@@ -1059,7 +1062,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text180">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_h0M2Js'),
+                        __html: 'от 800 грн',
                       }}
                     ></span>
                   </span>
@@ -1070,7 +1073,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text181">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_OrU58n'),
+                        __html: '10',
                       }}
                     ></span>
                   </span>
@@ -1081,7 +1084,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text182">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_A3QoKZ'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1094,7 +1097,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text183">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_VIN_yb'),
+                        __html: 'Замена щеток двигателя (с учетом стоимости щеток)',
                       }}
                     ></span>
                   </span>
@@ -1105,7 +1108,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text184">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_0io8oi'),
+                        __html: 'от 800 грн',
                       }}
                     ></span>
                   </span>
@@ -1116,7 +1119,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text185">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_jXCeD2'),
+                        __html: '11',
                       }}
                     ></span>
                   </span>
@@ -1127,7 +1130,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text186">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_NY8tUg'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1140,7 +1143,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text187">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_eOHIsI'),
+                        __html: 'Замена манжеты люка',
                       }}
                     ></span>
                   </span>
@@ -1151,7 +1154,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text188">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_PhzL_a'),
+                        __html: 'от 800 грн',
                       }}
                     ></span>
                   </span>
@@ -1162,7 +1165,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text189">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_ed-6G4'),
+                        __html: '12',
                       }}
                     ></span>
                   </span>
@@ -1173,7 +1176,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text190">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text__JBKcj'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1186,7 +1189,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text191">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_NygugB'),
+                        __html: 'Ремонт блокировки люка (без учета стоимости деталей)',
                       }}
                     ></span>
                   </span>
@@ -1197,7 +1200,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text192">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_OLst9u'),
+                        __html: 'от 500 грн',
                       }}
                     ></span>
                   </span>
@@ -1208,7 +1211,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text193">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_cSN8BJ'),
+                        __html: '13',
                       }}
                     ></span>
                   </span>
@@ -1219,7 +1222,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text194">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_VQZQJ0'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1232,7 +1235,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text195">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_mHbnuw'),
+                        __html: 'Зам��на амортизаторов (без учета стоимости амортизаторов)',
                       }}
                     ></span>
                   </span>
@@ -1243,7 +1246,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text196">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_3p_eCO'),
+                        __html: 'от 1500 грн',
                       }}
                     ></span>
                   </span>
@@ -1254,7 +1257,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text197">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_VePCb3'),
+                        __html: '14',
                       }}
                     ></span>
                   </span>
@@ -1265,7 +1268,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text198">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_En4d0Q'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1278,7 +1281,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text199">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_QM5rB3'),
+                        __html: 'Замена сливного или наливного шланга',
                       }}
                     ></span>
                   </span>
@@ -1289,7 +1292,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text200">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_YlU2NT'),
+                        __html: 'от 800 грн',
                       }}
                     ></span>
                   </span>
@@ -1300,7 +1303,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text201">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_IXUSE9'),
+                        __html: '15',
                       }}
                     ></span>
                   </span>
@@ -1311,7 +1314,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text202">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_mSNKAz'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1324,7 +1327,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text203">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_5uL5hd'),
+                        __html: 'Замена приводного ремня',
                       }}
                     ></span>
                   </span>
@@ -1335,7 +1338,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text204">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text__hHRau'),
+                        __html: 'от 800 грн',
                       }}
                     ></span>
                   </span>
@@ -1346,7 +1349,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text205">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_Vs5YpC'),
+                        __html: '16',
                       }}
                     ></span>
                   </span>
@@ -1357,7 +1360,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text206">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_PYWO_3'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1370,7 +1373,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text207">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_DGD1yo'),
+                        __html: 'Замена сальника',
                       }}
                     ></span>
                   </span>
@@ -1381,7 +1384,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text208">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_ZLYQ-t'),
+                        __html: 'от 500 грн',
                       }}
                     ></span>
                   </span>
@@ -1392,7 +1395,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text209">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_P3GVYp'),
+                        __html: '17',
                       }}
                     ></span>
                   </span>
@@ -1403,7 +1406,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text210">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_EVvFma'),
+                        __html: 'Вызвать мастера',
                       }}
                     ></span>
                   </span>
@@ -1601,7 +1604,7 @@ const Frame1196 = (props) => {
             <h2 className="frame1196-text215">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_V3PSBr'),
+                  __html: 'Ремонтируем все марки',
                 }}
               ></span>
             </h2>
@@ -1610,7 +1613,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container150">
               <Script
                 html={`<style>
-/* Для экранов до 767px включительно */
+/* Для экранов до 767px включительн�� */
 @media (max-width: 767px) {
     @keyframes scroll {
         from {
@@ -1622,7 +1625,7 @@ const Frame1196 = (props) => {
     }
 }
 
-/* Для экранов больше 767px */
+/* Для экр��нов больше 767px */
 @media (min-width: 768px) {
     @keyframes scroll {
         from {
@@ -1657,7 +1660,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Рем��нт стиральных машин Bosch в Одессе - професс��он��льный сервис"
+                  alt="Рем��нт стирал��ных машин Bosch в Одессе - професс��он��льный сервис"
                   src="/brands/bosch-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image34"
@@ -1769,7 +1772,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Zanussi в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Zanussi в Оде��се - профессиональный сервис"
                   src="/brands/zanussi-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image48"
@@ -1828,14 +1831,14 @@ to {transform: translateX(-2620px);}}
                 <h3 className="frame1196-text216">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_KBl1nS'),
+                      __html: 'Теперь продать стиральную машину в Одессе - это не сложно!',
                     }}
                   ></span>
                 </h3>
                 <button type="button" className="frame1196-button2 button">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_ubU0Ul'),
+                      __html: '��ыкуп б/у машин',
                     }}
                   ></span>
                 </button>
@@ -1848,7 +1851,7 @@ to {transform: translateX(-2620px);}}
             <h2 className="frame1196-text217">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_Vxtib6'),
+                  __html: 'Почему мы?',
                 }}
               ></span>
             </h2>
@@ -1933,7 +1936,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text218">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_F1_m9-'),
+                          __html: 'Современное оборудование по диагностике',
                         }}
                       ></span>
                     </h3>
@@ -1978,7 +1981,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text219">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_4Usb_-'),
+                      __html: 'Находим неисправности быстро и то��но благодаря про��ессиональной технике.',
                     }}
                   ></span>
                 </p>
@@ -2131,7 +2134,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text220">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_0RUu6m'),
+                          __html: 'Налаженные связи с поставщиками',
                         }}
                       ></span>
                     </h3>
@@ -2176,7 +2179,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text221">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_5qPHSf'),
+                      __html: 'Получаем нужные запчасти быстро, по выгодным ценам и без переплат.',
                     }}
                   ></span>
                 </p>
@@ -2329,7 +2332,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text222">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_Ugcvpr'),
+                          __html: 'Низкие цены на весь сервисный диапазон услуг',
                         }}
                       ></span>
                     </h3>
@@ -2374,7 +2377,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text223">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_qx_Aff'),
+                      __html: 'Выполняем работу качественно и доступно, без скрытых доплат и ненужных расходов.',
                     }}
                   ></span>
                 </p>
@@ -2527,7 +2530,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text224">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_9mTYM5'),
+                          __html: 'Лучшие мастера с многолетним стажем 7-10 лет',
                         }}
                       ></span>
                     </h3>
@@ -2572,7 +2575,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text225">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_OQi70-'),
+                      __html: 'Квалифицированные специалисты, которые знают своё дело.',
                     }}
                   ></span>
                 </p>
@@ -2725,7 +2728,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text226">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_DM0GAL'),
+                          __html: 'Гарантийный cрок до 12 месяцев',
                         }}
                       ></span>
                     </h3>
@@ -2770,7 +2773,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text227">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_20kRBM'),
+                      __html: 'Подтверждаем надёжность ремонта длительным сроком гарантии.',
                     }}
                   ></span>
                 </p>
@@ -2850,7 +2853,7 @@ to {transform: translateX(-2620px);}}
           <h2 className="frame1196-text228">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_DU4czk'),
+                __html: 'Наши работы',
               }}
             ></span>
           </h2>
@@ -2992,7 +2995,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container185">
               <div className="frame1196-container186">
                 <figcaption className="frame1196-text229">
-                  Установка нового у��лотнителя дверцы стиралки Zanussi
+                  Установка нового у���лотнителя дверцы стиралки Zanussi
                 </figcaption>
               </div>
             </div>
@@ -3013,7 +3016,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container191">
               <div className="frame1196-container192">
                 <figcaption className="frame1196-text232">
-                  Установка новой втулки уплотнителя
+                  Установка новой ��тулки уплотнит��ля
                 </figcaption>
               </div>
             </div>
@@ -3041,7 +3044,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container199">
               <div className="frame1196-container200">
                 <figcaption className="frame1196-text236">
-                  В��сстановление управляющей платы на Siemens
+                  В��сстановление ��правляющей п��аты на Siemens
                 </figcaption>
               </div>
             </div>
@@ -3087,7 +3090,7 @@ to {transform: translateX(-2620px);}}
             <h2 className="frame1196-text238">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_jjMIR5'),
+                  __html: 'Ответы на часто задаваемые вопросы!',
                 }}
               ></span>
             </h2>
@@ -3148,49 +3151,76 @@ to {transform: translateX(-2620px);}}
         <div className="frame1196-container208">
           <div className="frame1196-container209">
             <div className="frame1196-container210">
-              <div className="frame1196-container211">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  className="frame1196-icon338"
-                >
-                  <path
-                    d="M6 12h6m6 0h-6m0 0V6m0 6v6"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
-              </div>
-              <h3 className="frame1196-text239">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_il7DFQ'),
-                  }}
-                ></span>
-              </h3>
+            <div
+              className="frame1196-container211"
+              onClick={() => toggleFAQ(1)}
+              style={{ cursor: 'pointer' }}
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="frame1196-icon338"
+                style={{
+                  transform: activeFAQ === 1 ? 'rotate(45deg)' : 'rotate(0deg)',
+                  transition: 'transform 0.3s ease'
+                }}
+              >
+                <path
+                  d="M6 12h6m6 0h-6m0 0V6m0 6v6"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                ></path>
+              </svg>
             </div>
+            <h3
+              className="frame1196-text239"
+              onClick={() => toggleFAQ(1)}
+              style={{
+                cursor: 'pointer',
+                fontSize: '16px',
+                fontFamily: 'Nunito, sans-serif',
+                fontWeight: '400'
+              }}
+            >
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: 'Сколько времени занимает ремонт?',
+                }}
+              ></span>
+            </h3>
+          </div>
+          {activeFAQ === 1 && (
             <div className="frame1196-otvet1">
               <p className="frame1196-text240">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_D9hJEt'),
+                    __html: '99% поломок устраняем на месте за 30-60 минут. Только редкие случаи требуют заказа специфических деталей и повторного визита через 1-2 дня',
                   }}
                 ></span>
               </p>
             </div>
+          )}
           </div>
           <div className="frame1196-container212">
             <div className="frame1196-container213">
-              <div className="frame1196-container214">
+              <div
+                className="frame1196-container214"
+                onClick={() => toggleFAQ(2)}
+                style={{ cursor: 'pointer' }}
+              >
                 <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
                   className="frame1196-icon340"
+                  style={{
+                    transform: activeFAQ === 2 ? 'rotate(45deg)' : 'rotate(0deg)',
+                    transition: 'transform 0.3s ease'
+                  }}
                 >
                   <path
                     d="M6 12h6m6 0h-6m0 0V6m0 6v6"
@@ -3202,32 +3232,51 @@ to {transform: translateX(-2620px);}}
                   ></path>
                 </svg>
               </div>
-              <h3 className="frame1196-text241 nunitoitalic">
+              <h3
+                className="frame1196-text241"
+                onClick={() => toggleFAQ(2)}
+                style={{
+                  cursor: 'pointer',
+                  fontSize: '16px',
+                  fontFamily: 'Nunito, sans-serif',
+                  fontWeight: '400'
+                }}
+              >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_mtxyeh'),
+                    __html: 'Какую гарантию вы предоставляете?',
                   }}
                 ></span>
               </h3>
             </div>
-            <div className="frame1196-otvet2">
-              <p className="frame1196-text242">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7uT2dl'),
-                  }}
-                ></span>
-              </p>
-            </div>
+            {activeFAQ === 2 && (
+              <div className="frame1196-otvet2">
+                <p className="frame1196-text242">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: 'На все виды работ даем гарантию 6 месяцев, на замененные запчасти - 1 год. Гарантийный талон выдается сразу после завершения ремонта',
+                    }}
+                  ></span>
+                </p>
+              </div>
+            )}
           </div>
           <div className="frame1196-container215">
             <div className="frame1196-container216">
-              <div className="frame1196-container217">
+              <div
+                className="frame1196-container217"
+                onClick={() => toggleFAQ(3)}
+                style={{ cursor: 'pointer' }}
+              >
                 <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
                   className="frame1196-icon342"
+                  style={{
+                    transform: activeFAQ === 3 ? 'rotate(45deg)' : 'rotate(0deg)',
+                    transition: 'transform 0.3s ease'
+                  }}
                 >
                   <path
                     d="M6 12h6m6 0h-6m0 0V6m0 6v6"
@@ -3239,32 +3288,51 @@ to {transform: translateX(-2620px);}}
                   ></path>
                 </svg>
               </div>
-              <h3 className="frame1196-text243 nunitoitalic">
+              <h3
+                className="frame1196-text243"
+                onClick={() => toggleFAQ(3)}
+                style={{
+                  cursor: 'pointer',
+                  fontSize: '16px',
+                  fontFamily: 'Nunito, sans-serif',
+                  fontWeight: '400'
+                }}
+              >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_a-CU0Y'),
+                    __html: 'Сколько стоит диагностика?',
                   }}
                 ></span>
               </h3>
             </div>
-            <div className="frame1196-otvet3">
-              <p className="frame1196-text244">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_RTHPwj'),
-                  }}
-                ></span>
-              </p>
-            </div>
+            {activeFAQ === 3 && (
+              <div className="frame1196-otvet3">
+                <p className="frame1196-text244">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: 'Диагностика стоит 200 гривен. При согласии на ремонт стоимость диагностики засчитывается в общую сумму работ. Выезд мастера бесплатный',
+                    }}
+                  ></span>
+                </p>
+              </div>
+            )}
           </div>
           <div className="frame1196-container218">
             <div className="frame1196-container219">
-              <div className="frame1196-container220">
+              <div
+                className="frame1196-container220"
+                onClick={() => toggleFAQ(4)}
+                style={{ cursor: 'pointer' }}
+              >
                 <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
                   className="frame1196-icon344"
+                  style={{
+                    transform: activeFAQ === 4 ? 'rotate(45deg)' : 'rotate(0deg)',
+                    transition: 'transform 0.3s ease'
+                  }}
                 >
                   <path
                     d="M6 12h6m6 0h-6m0 0V6m0 6v6"
@@ -3276,10 +3344,19 @@ to {transform: translateX(-2620px);}}
                   ></path>
                 </svg>
               </div>
-              <h3 className="frame1196-text245 nunitoitalic">
+              <h3
+                className="frame1196-text245"
+                onClick={() => toggleFAQ(4)}
+                style={{
+                  cursor: 'pointer',
+                  fontSize: '16px',
+                  fontFamily: 'Nunito, sans-serif',
+                  fontWeight: '400'
+                }}
+              >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_H1MbbY'),
+                    __html: 'Будет ли у мастера детали для моей техники?',
                   }}
                 ></span>
               </h3>
@@ -3288,7 +3365,7 @@ to {transform: translateX(-2620px);}}
               <p className="frame1196-text246">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_hggJ3K'),
+                    __html: 'Масте�� возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. Проверяем наличие по телефону заранее.',
                   }}
                 ></span>
               </p>
@@ -3296,12 +3373,20 @@ to {transform: translateX(-2620px);}}
           </div>
           <div className="frame1196-container221">
             <div className="frame1196-container222">
-              <div className="frame1196-container223">
+              <div
+                className="frame1196-container223"
+                onClick={() => toggleFAQ(5)}
+                style={{ cursor: 'pointer' }}
+              >
                 <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
                   className="frame1196-icon346"
+                  style={{
+                    transform: activeFAQ === 5 ? 'rotate(45deg)' : 'rotate(0deg)',
+                    transition: 'transform 0.3s ease'
+                  }}
                 >
                   <path
                     d="M6 12h6m6 0h-6m0 0V6m0 6v6"
@@ -3313,23 +3398,34 @@ to {transform: translateX(-2620px);}}
                   ></path>
                 </svg>
               </div>
-              <h3 className="frame1196-text247 nunitoitalic">
+              <h3
+                className="frame1196-text247"
+                onClick={() => toggleFAQ(5)}
+                style={{
+                  cursor: 'pointer',
+                  fontSize: '16px',
+                  fontFamily: 'Nunito, sans-serif',
+                  fontWeight: '400'
+                }}
+              >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_PCExeK'),
+                    __html: 'Дешевле отремонтировать или заменить?',
                   }}
                 ></span>
               </h3>
             </div>
-            <div className="frame1196-otvet5">
-              <p className="frame1196-text248">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_HipaSw'),
-                  }}
-                ></span>
-              </p>
-            </div>
+            {activeFAQ === 5 && (
+              <div className="frame1196-otvet5">
+                <p className="frame1196-text248">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: 'Если стоимость ремонта превышает 60% от цены новой машины - лучше заменить. Мы всегда честно консультируем о целесообразности ремонта.',
+                    }}
+                  ></span>
+                </p>
+              </div>
+            )}
           </div>
           <svg
             width="10"
@@ -3407,7 +3503,7 @@ to {transform: translateX(-2620px);}}
           <strong className="frame1196-text249">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_1G1GFH'),
+                __html: 'Остались вопросы? Cпросите мастера бесплатно',
               }}
             ></span>
           </strong>
@@ -3415,7 +3511,7 @@ to {transform: translateX(-2620px);}}
         <button type="button" className="frame1196-button3 button">
           <span
             dangerouslySetInnerHTML={{
-              __html: translate.raw('text_FKM6Da'),
+              __html: 'Спросить Мастера',
             }}
           ></span>
         </button>
@@ -3424,7 +3520,7 @@ to {transform: translateX(-2620px);}}
             <span className="textglavitogi frame1196-text250">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_ohHRDm'),
+                  __html: 'Ремонт стиральных машин в сервисном центре "Ваше Название" в Одессе',
                 }}
               ></span>
             </span>
@@ -3432,21 +3528,21 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text251 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_4iOCmU'),
+                __html: 'Стиральная машина — эт�� техника, которая должна работать исправно: отжимать, стирать и радовать стабильностью.',
               }}
             ></span>
           </p>
           <p className="frame1196-text252 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_du5aSs'),
+                __html: 'Под брендом "Ваше Название" работает команда мастеров...',
               }}
             ></span>
           </p>
           <h2 className="textglavitogi">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_usAWuq'),
+                __html: 'Почему выбирают нас',
               }}
             ></span>
           </h2>
@@ -3455,7 +3551,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_fA5gZe'),
+                    __html: 'На рынке ремонта бытовой техники с 2011 года.',
                   }}
                 ></span>
               </span>
@@ -3464,7 +3560,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_euylW4'),
+                    __html: 'Работаем напрямую с поставщиками — без переплат и посредников.',
                   }}
                 ></span>
               </span>
@@ -3473,7 +3569,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_bo3z6o'),
+                    __html: 'В штате только опытные мастера с профильной подготовкой.',
                   }}
                 ></span>
               </span>
@@ -3482,7 +3578,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9mjofz'),
+                    __html: 'Используем современное оборудование и точную диагностику.',
                   }}
                 ></span>
               </span>
@@ -3491,7 +3587,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_g3RPMg'),
+                    __html: 'Работаем как с типовыми, так и со сложными неисправностями.',
                   }}
                 ></span>
               </span>
@@ -3500,14 +3596,14 @@ to {transform: translateX(-2620px);}}
           <h2 className="textglavitogi">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_liePyl'),
+                __html: 'Частые поломки с��иральных машин',
               }}
             ></span>
           </h2>
           <p className="frame1196-text260 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_lClbhF'),
+                __html: 'Ремонт стиральных машин в Одессе необходим как новым, так и давно использованным моделям...',
               }}
             ></span>
           </p>
@@ -3516,7 +3612,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7v0qqO'),
+                    __html: 'Машина не слива��т воду — проблема с помпой или засор сливной системы.',
                   }}
                 ></span>
               </span>
@@ -3525,7 +3621,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_V1_xu1'),
+                    __html: 'Шум и вибрации — чаще всего износ амортизаторов или подшипников.',
                   }}
                 ></span>
               </span>
@@ -3534,7 +3630,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_2woHY8'),
+                    __html: 'Не запускается стирка — проверяем модуль управления или кнопку питания.',
                   }}
                 ></span>
               </span>
@@ -3543,7 +3639,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_jY-iH1'),
+                    __html: 'Течёт корпус — устраняем утечки, заменяем шланги, манжеты, патрубки.',
                   }}
                 ></span>
               </span>
@@ -3552,7 +3648,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_koPGkX'),
+                    __html: 'Не греет воду — диагностика и замена ТЭНа.',
                   }}
                 ></span>
               </span>
@@ -3561,7 +3657,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_3fc_tx'),
+                    __html: 'Ошибка на ��кране — расшифровываем код неисправности и устраняем причину.',
                   }}
                 ></span>
               </span>
@@ -3570,7 +3666,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_H6QnAr'),
+                    __html: 'Регулярное техобслуживание — профилактика раз в 12 месяцев продлевает срок службы.',
                   }}
                 ></span>
               </span>
@@ -3579,42 +3675,42 @@ to {transform: translateX(-2620px);}}
           <h2 className="textglavitogi">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_isvdZA'),
+                __html: 'Обслуживаемые бренды',
               }}
             ></span>
           </h2>
           <p className="textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_KQCnOJ'),
+                __html: 'LG, Samsung, Bosch, Electrolux, Whirlpool, Indesit, Zanussi, Gorenje, AEG, Miele и другие. Работаем не только по Одессе, но и в пригородах.',
               }}
             ></span>
           </p>
           <h2 className="textglavitogi">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_jfyarr'),
+                __html: 'Сервисная мастерская',
               }}
             ></span>
           </h2>
           <p className="frame1196-text271 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_jTvqrP'),
+                __html: 'Сервисный центр "Ваше название" — это современная ��рофессиональная мастерская в Одессе...',
               }}
             ></span>
           </p>
           <h2 className="textglavitogi">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_QZQP3e'),
+                __html: 'Контакты',
               }}
             ></span>
           </h2>
           <p className="textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_4Jdfku'),
+                __html: 'Ниже на сайте — карта проезда к нашей мастерской, а также наши телефоны...',
               }}
             ></span>
           </p>
@@ -3623,7 +3719,7 @@ to {transform: translateX(-2620px);}}
           <h2 className="frame1196-text274">
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_DMTkZC'),
+                __html: 'Отзывы',
               }}
             ></span>
           </h2>
@@ -3661,7 +3757,7 @@ to {transform: translateX(-2620px);}}
               className="frame1196-frame10701"
             />
             <p className="frame1196-text276">
-              Я долбоеб. я не могу жить без стиралки, по��ому что когда она
+              Я долбоеб. я не могу жить без стиралки, по��ому что ког��а она
               сломана я ��е могу плакать на взрыд во время отжима.
             </p>
             <svg
@@ -3814,7 +3910,7 @@ to {transform: translateX(-2620px);}}
             <p className="frame1196-text278">
               &quot;Я считаю это победа над стиральной машино��, которой 12
               лет))  Очень круто!! Благодарю!! Она пала в руки мастера и
-              отдалась ему полностью, а н�� стала бры��аться. не знаю, что он там
+              отдала��ь ем�� полностью, а н�� стала бры��аться. не знаю, что он там
               с ней делал, но сейчас она как шелковая стирает мой ситцев��е
               кружевно�� белье&lt;3&quot;
             </p>
@@ -4086,7 +4182,7 @@ to {transform: translateX(-2620px);}}
         <button type="button" className="frame1196-button4 button">
           <span
             dangerouslySetInnerHTML={{
-              __html: translate.raw('text_u0ClSb'),
+              __html: 'Добавить отзыв',
             }}
           ></span>
         </button>
@@ -4097,7 +4193,7 @@ to {transform: translateX(-2620px);}}
               <strong className="frame1196-text281">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_3-EdNW'),
+                    __html: 'Наши контакты',
                   }}
                 ></span>
               </strong>
@@ -4106,14 +4202,14 @@ to {transform: translateX(-2620px);}}
                   <p className="frame1196-text282">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_OdbpzQ'),
+                        __html: 'Тел.: +38 (098) 467-13-52',
                       }}
                     ></span>
                   </p>
                   <p className="frame1196-text283">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_d2YfFM'),
+                        __html: 'Тел.: +38 (098) 467-13-52',
                       }}
                     ></span>
                   </p>
@@ -4123,14 +4219,14 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text284">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_BqrkpK'),
+                      __html: 'Адрес: пл. Независимости, 1, Одесса, Одесская область, 65000',
                     }}
                   ></span>
                 </p>
                 <p className="frame1196-text285">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('Text_THlJwj'),
+                      __html: 'E-mail: remstirmash@gmail.com',
                     }}
                   ></span>
                 </p>
@@ -4138,7 +4234,7 @@ to {transform: translateX(-2620px);}}
               <p className="frame1196-text286">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('Text_kzJcle'),
+                    __html: 'Пн-Вс: 9:00-21:00',
                   }}
                 ></span>
               </p>
@@ -4165,14 +4261,14 @@ to {transform: translateX(-2620px);}}
                 <strong className="frame1196-text287">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_r6CUKn'),
+                      __html: 'Оставьте заявку на бесплатный выезд мастера',
                     }}
                   ></span>
                 </strong>
                 <button type="button" className="frame1196-button5 button">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_9_pRC8'),
+                      __html: 'Заказать мастера',
                     }}
                   ></span>
                 </button>
@@ -4189,21 +4285,21 @@ to {transform: translateX(-2620px);}}
               <span className="frame1196-text288">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_zB309I'),
+                    __html: 'Главная',
                   }}
                 ></span>
               </span>
               <span className="frame1196-text289">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_PkWHKj'),
+                    __html: 'Выкуп б/y машин',
                   }}
                 ></span>
               </span>
               <span className="frame1196-text290">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_g_eY17'),
+                    __html: 'Статьи',
                   }}
                 ></span>
               </span>
@@ -4212,7 +4308,7 @@ to {transform: translateX(-2620px);}}
         </footer>
         </div>
         <span className="frame1196-text291">
-          <span className="frame1196-text292">&quot;Ваше название&quot;</span>
+          <span className="frame1196-text292">&quot;Ва��е название&quot;</span>
           <span>: сервис по ремонту стир��льных ма��ин</span>
           <br />
           <span>© 2025</span>
@@ -11430,7 +11526,7 @@ to {transform: translateX(-2620px);}}
           }
 
 
-          /* Стили для ссылок-карточек */
+          /* Стили для ссылок-карточ��к */
           .frame1196-container113,
           .frame1196-container114,
           .frame1196-container115,
@@ -11466,14 +11562,3 @@ to {transform: translateX(-2620px);}}
 }
 
 export default Frame1196
-
-export async function getStaticProps(context) {
-  const messages = (await import(`/locales/${context.locale}.json`))
-    .default
-  return {
-    props: {
-      messages,
-      ...context,
-    },
-  }
-}

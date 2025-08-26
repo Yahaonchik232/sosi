@@ -1,10 +1,8 @@
 import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-import { useTranslations } from 'next-intl'
 
 const Blue1 = (props) => {
-  const translate = useTranslations()
   return (
     <>
       <div className={`blue1-blue ${props.rootClassName} `}>
