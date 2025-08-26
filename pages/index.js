@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Script from 'dangerous-html/react'
 
@@ -272,7 +273,7 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Стиральная машина не крутит барабан"
+                alt="Стиральная машина не крутит ба��абан"
                 src="/problems/10-300h.webp"
                 loading="eager"
                 className="frame1196-image24"
@@ -291,7 +292,7 @@ const Frame1196 = (props) => {
             </span>
             <br className="frame1196-text127" />
             <span className="frame1196-text128">
-              Профессионально устраняем любые неисправности стиральных машин —
+              Профессионал��но устраняем любые неисправности стиральных машин —
               от самых простых до самых сложных.
             </span>
             <br className="frame1196-text129" />
@@ -958,7 +959,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text171">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Замена сливного насоса (с учетом стоимости насоса)',
+                        __html: 'Замена сливного насоса (с учетом стоимости н��соса)',
                       }}
                     ></span>
                   </span>
@@ -1142,7 +1143,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text187">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Замена манжеты люка',
+                        __html: 'Замена манже��ы люка',
                       }}
                     ></span>
                   </span>
@@ -1682,7 +1683,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стира��ьных машин Gorenje в Одессе - п��офессиональн��й ��ервис"
+                  alt="Ремонт стира��ьных м��шин Gorenje в Одессе - п��офессиональн��й ��ервис"
                   src="/brands/gorenje-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image37"
@@ -1690,7 +1691,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Ardo в Одессе - профессион��л��ный сервис"
+                  alt="Ремонт стиральных машин Ardo в Одессе - профессион��л��н��й сервис"
                   src="/brands/image%203823123-200h.webp"
                   loading="eager"
                   className="frame1196-image38"
@@ -1746,7 +1747,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральн��х машин LG в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральн��х машин LG в Одессе - профессиональный се��вис"
                   src="/brands/lg-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image45"
@@ -1833,13 +1834,15 @@ to {transform: translateX(-2620px);}}
                     }}
                   ></span>
                 </h3>
-                <button type="button" className="frame1196-button2 button">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: '��ыкуп б/у машин',
-                    }}
-                  ></span>
-                </button>
+                <Link href="/vikup">
+                  <button type="button" className="frame1196-button2 button">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: '��ыкуп б/у машин',
+                      }}
+                    ></span>
+                  </button>
+                </Link>
               </div>
             </div>
           </section>
@@ -2528,7 +2531,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text224">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Лучшие мастера с многолетним стажем 7-10 лет',
+                          __html: 'Лучшие мастера с многолетним стажем 7-10 л��т',
                         }}
                       ></span>
                     </h3>
@@ -3402,7 +3405,7 @@ to {transform: translateX(-2620px);}}
               >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Дешевле отремонтировать или заменить?',
+                    __html: 'Дешевле отремонтироват�� или заменить?',
                   }}
                 ></span>
               </h3>
@@ -3411,7 +3414,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text248">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Если стоимость ремонта превышает 60% от цены новой машины - ��учше заменить. Мы всегда честно консультиру��м о целесообразности ремонт��.',
+                      __html: 'Если стоимость р��монта превышает 60% от цены новой машины - ��учше заменить. Мы всегда честно консультиру��м о целесообразности ремонт��.',
                     }}
                   ></span>
                 </p>
@@ -3518,7 +3521,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text251 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Стиральн��я машина — эт�� техника, которая должна работать исправно: отжимать, стирать и радовать стабил��ностью.',
+                __html: 'Стиральн��я машин�� — эт�� техника, которая должна работать исправно: отжимать, стирать и радовать стабил��ностью.',
               }}
             ></span>
           </p>
@@ -3611,7 +3614,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Шум и вибрации — чаще всего износ амортизаторов или подшипников.',
+                    __html: 'Шум и вибрации — чаще всего износ амортизаторов или подшип��иков.',
                   }}
                 ></span>
               </span>
@@ -3629,7 +3632,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Течёт корпус — устраняем утечки, заменяем шланги, манжеты, патрубки.',
+                    __html: 'Течёт корпус — устр��няем утечки, заменяем шланги, манжеты, патрубки.',
                   }}
                 ></span>
               </span>
@@ -3672,7 +3675,7 @@ to {transform: translateX(-2620px);}}
           <p className="textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'LG, Samsung, Bosch, Electrolux, Whirlpool, Indesit, Zanussi, Gorenje, AEG, Miele и другие. Работаем не только по Одессе, но и в пригородах.',
+                __html: 'LG, Samsung, Bosch, Electrolux, Whirlpool, Indesit, Zanussi, Gorenje, AEG, Miele и другие. Работаем не только по Одессе, но и в ��ригородах.',
               }}
             ></span>
           </p>
@@ -4251,7 +4254,7 @@ to {transform: translateX(-2620px);}}
                 <strong className="frame1196-text287">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Оставьте заяв��у на бесплатный выезд мастера',
+                      __html: 'Оставьте заяв����у на бесплатный выезд мастера',
                     }}
                   ></span>
                 </strong>
@@ -6181,6 +6184,12 @@ to {transform: translateX(-2620px);}}
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.35);
             background-color: #ffd84d;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+
+          .frame1196-button2:hover {
+            background-color: #e6c043;
           }
           .frame1196-container160 {
             gap: Thre0eUnits;
@@ -8638,7 +8647,7 @@ to {transform: translateX(-2620px);}}
             position: absolute;
           }
 
-          /* Убираем margin-bottom у блока с заголовком и кнопкой до 1618px */
+          /* У��ираем margin-bottom у блока с заголовком и кнопкой до 1618px */
           @media (max-width: 1618px) {
             .frame1196-container112 {
               margin-bottom: 0px;

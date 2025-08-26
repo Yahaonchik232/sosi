@@ -1,15 +1,17 @@
 import React from 'react'
 import Head from 'next/head'
+import Header from '../components/Header'
+import MainFooter from '../components/MainFooter'
 
-const Page1 = (props) => {
+const Vikup = (props) => {
   return (
     <>
-      <main className="page1-container10">
+      <div className="page1-container10">
         <Head>
           <title>Page1 - Pesky Trusty Pony</title>
           <meta property="og:title" content="Page1 - Pesky Trusty Pony" />
         </Head>
-        <header className="page1-header"></header>
+        <Header />
         <div className="page1-headertextwashermachine">
           <img
             alt="image"
@@ -104,7 +106,7 @@ const Page1 = (props) => {
               <div className="page1-container16">
                 <img
                   alt="image"
-                  src="/icons/res3.svg"
+                  src="/ICONS/23222.svg"
                   loading="lazy"
                   className="page1-image3"
                 />
@@ -127,17 +129,17 @@ const Page1 = (props) => {
                         y2="0"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0%" stop-color="#303030"></stop>
-                        <stop offset="100%" stop-color="#4EC8ED"></stop>
+                        <stop offset="0%" stopColor="#303030"></stop>
+                        <stop offset="100%" stopColor="#4EC8ED"></stop>
                       </linearGradient>
                     </defs>
                     <path
                       d="M0 10 H110"
                       fill="none"
                       stroke="url(#grad253)"
-                      stroke-width="0.5"
-                      vector-effect="non-scaling-stroke"
-                      stroke-dasharray="11 11"
+                      strokeWidth="0.5"
+                      vectorEffect="non-scaling-stroke"
+                      strokeDasharray="11 11"
                     ></path>
                   </svg>
                   <p className="page1-text30">
@@ -148,7 +150,7 @@ const Page1 = (props) => {
               <div className="page1-container18">
                 <img
                   alt="image"
-                  src="/icons/23222.svg"
+                  src="/ICONS/res3.svg"
                   loading="lazy"
                   className="page1-image4"
                 />
@@ -171,17 +173,17 @@ const Page1 = (props) => {
                         y2="0"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0%" stop-color="#303030"></stop>
-                        <stop offset="100%" stop-color="#4EC8ED"></stop>
+                        <stop offset="0%" stopColor="#303030"></stop>
+                        <stop offset="100%" stopColor="#4EC8ED"></stop>
                       </linearGradient>
                     </defs>
                     <path
                       d="M0 10 H110"
                       fill="none"
                       stroke="url(#grad253)"
-                      stroke-width="0.5"
-                      vector-effect="non-scaling-stroke"
-                      stroke-dasharray="11 11"
+                      strokeWidth="0.5"
+                      vectorEffect="non-scaling-stroke"
+                      strokeDasharray="11 11"
                     ></path>
                   </svg>
                   <p className="page1-text32">
@@ -192,7 +194,7 @@ const Page1 = (props) => {
               <div className="page1-container20">
                 <img
                   alt="image"
-                  src="/icons/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%202323.svg"
+                  src="/ICONS/zamena1.svg"
                   loading="lazy"
                   className="page1-image5"
                 />
@@ -218,17 +220,17 @@ const Page1 = (props) => {
                         y2="0"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0%" stop-color="#303030"></stop>
-                        <stop offset="100%" stop-color="#4EC8ED"></stop>
+                        <stop offset="0%" stopColor="#303030"></stop>
+                        <stop offset="100%" stopColor="#4EC8ED"></stop>
                       </linearGradient>
                     </defs>
                     <path
                       d="M0 10 H110"
                       fill="none"
                       stroke="url(#grad253)"
-                      stroke-width="0.5"
-                      vector-effect="non-scaling-stroke"
-                      stroke-dasharray="11 11"
+                      strokeWidth="0.5"
+                      vectorEffect="non-scaling-stroke"
+                      strokeDasharray="11 11"
                     ></path>
                   </svg>
                   <p className="page1-text36">
@@ -248,9 +250,9 @@ const Page1 = (props) => {
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -265,9 +267,9 @@ const Page1 = (props) => {
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -282,9 +284,9 @@ const Page1 = (props) => {
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -299,9 +301,9 @@ const Page1 = (props) => {
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -318,8 +320,8 @@ const Page1 = (props) => {
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -336,8 +338,8 @@ const Page1 = (props) => {
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -354,8 +356,8 @@ const Page1 = (props) => {
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -372,8 +374,8 @@ const Page1 = (props) => {
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
             </div>
@@ -410,17 +412,17 @@ const Page1 = (props) => {
                     y2="0"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0%" stop-color="#303030"></stop>
-                    <stop offset="100%" stop-color="#4EC8ED"></stop>
+                    <stop offset="0%" stopColor="#303030"></stop>
+                    <stop offset="100%" stopColor="#4EC8ED"></stop>
                   </linearGradient>
                 </defs>
                 <path
                   d="M0 10 H110"
                   fill="none"
                   stroke="url(#grad253)"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <div className="page1-container26">
@@ -429,7 +431,7 @@ const Page1 = (props) => {
                 </div>
                 <img
                   alt="image"
-                  src="/icons/untitled%2045-200w.png"
+                  src="/ICONS/29.svg"
                   className="page1-image6"
                 />
               </div>
@@ -447,9 +449,9 @@ const Page1 = (props) => {
               d="M0 10 H330"
               fill="none"
               stroke="#000000"
-              stroke-width="0.5"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="0.5"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
           </svg>
           <svg
@@ -464,9 +466,9 @@ const Page1 = (props) => {
               d="M0 10 H330"
               fill="none"
               stroke="#000000"
-              stroke-width="0.5"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="0.5"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
           </svg>
           <svg
@@ -481,9 +483,9 @@ const Page1 = (props) => {
               d="M10 0 V110"
               fill="none"
               stroke="#000000"
-              stroke-width="0.5"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="0.5"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
           </svg>
           <svg
@@ -498,9 +500,9 @@ const Page1 = (props) => {
               d="M10 0 V110"
               fill="none"
               stroke="#000000"
-              stroke-width="0.5"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="0.5"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
           </svg>
           <svg
@@ -516,7 +518,7 @@ const Page1 = (props) => {
               cx="5"
               cy="10"
               fill="#606060"
-              vector-effect="non-scaling-stroke"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <svg
@@ -532,7 +534,7 @@ const Page1 = (props) => {
               cx="5"
               cy="10"
               fill="#606060"
-              vector-effect="non-scaling-stroke"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <svg
@@ -548,7 +550,7 @@ const Page1 = (props) => {
               cx="5"
               cy="10"
               fill="#606060"
-              vector-effect="non-scaling-stroke"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <svg
@@ -564,7 +566,7 @@ const Page1 = (props) => {
               cx="5"
               cy="10"
               fill="#606060"
-              vector-effect="non-scaling-stroke"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <div className="page1-container28">
@@ -588,17 +590,17 @@ const Page1 = (props) => {
                     y2="0"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0%" stop-color="#303030"></stop>
-                    <stop offset="100%" stop-color="#4EC8ED"></stop>
+                    <stop offset="0%" stopColor="#303030"></stop>
+                    <stop offset="100%" stopColor="#4EC8ED"></stop>
                   </linearGradient>
                 </defs>
                 <path
                   d="M0 10 H110"
                   fill="none"
                   stroke="url(#grad253)"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <div className="page1-container30">
@@ -607,7 +609,7 @@ const Page1 = (props) => {
                 </div>
                 <img
                   alt="image"
-                  src="/icons/untitled%2045-200w.png"
+                  src="/ICONS/29.svg"
                   className="page1-image7"
                 />
               </div>
@@ -634,17 +636,17 @@ const Page1 = (props) => {
                     y2="0"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0%" stop-color="#303030"></stop>
-                    <stop offset="100%" stop-color="#4EC8ED"></stop>
+                    <stop offset="0%" stopColor="#303030"></stop>
+                    <stop offset="100%" stopColor="#4EC8ED"></stop>
                   </linearGradient>
                 </defs>
                 <path
                   d="M0 10 H110"
                   fill="none"
                   stroke="url(#grad253)"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <div className="page1-container34">
@@ -653,14 +655,15 @@ const Page1 = (props) => {
                 </div>
                 <img
                   alt="image"
-                  src="/external/untitled%2045-200w-200w.png"
+                  src="/ICONS/29.svg"
                   className="page1-image8"
                 />
               </div>
             </div>
           </div>
         </article>
-      </main>
+        <MainFooter />
+      </div>
       <style jsx>
         {`
           .page1-container10 {
@@ -1108,7 +1111,7 @@ const Page1 = (props) => {
             min-width: auto;
             align-items: center;
             border-radius: var(--dl-layout-radius-imageradius);
-            margin-bottom: var(--dl-layout-space-twounits);
+            margin-bottom: 30px;
             flex-direction: row;
             justify-content: center;
           }
@@ -1624,4 +1627,4 @@ const Page1 = (props) => {
   )
 }
 
-export default Page1
+export default Vikup

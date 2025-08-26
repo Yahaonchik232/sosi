@@ -573,11 +573,15 @@
 }
  
 .zagolovki2 {
-  font-size: 16px;
-  font-style: normal;
-  font-family: "IBM Plex Serif";
-  font-weight: 700;
-  line-height: normal;
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  font-family: "Noto Serif SC";
+  font-weight: 600;
+  line-height: 1.75;
+  font-stretch: normal;
+  letter-spacing: 0.5px;
   text-transform: none;
   text-decoration: none;
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -45,24 +46,28 @@ const Header = () => {
           </div>
           <div className="frame1196-obshiy">
             <div className="frame1196-korobki">
-              <div className="frame1196-container105">
-                <span className="frame1196-text101">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Главная',
-                    }}
-                  ></span>
-                </span>
-              </div>
-              <div className="frame1196-container106">
-                <span className="frame1196-text102">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Выкуп б/у машин',
-                    }}
-                  ></span>
-                </span>
-              </div>
+              <Link href="/">
+                <div className="frame1196-container105">
+                  <span className="frame1196-text101">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: 'Главная',
+                      }}
+                    ></span>
+                  </span>
+                </div>
+              </Link>
+              <Link href="/vikup">
+                <div className="frame1196-container106">
+                  <span className="frame1196-text102">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: 'Выкуп б/у машин',
+                      }}
+                    ></span>
+                  </span>
+                </div>
+              </Link>
               <div className="frame1196-container107">
                 <span className="frame1196-text103">
                   <span
@@ -191,9 +196,9 @@ const Header = () => {
               </button>
             </div>
             <nav className="frame1196-sidebar-nav">
-              <a href="#" className="frame1196-sidebar-link">ГЛАВНАЯ</a>
-              <a href="#" className="frame1196-sidebar-link">ВЫКУП Б/У МАШИН</a>
-              <a href="#" className="frame1196-sidebar-link">СТАТЬИ</a>
+              <Link href="/" className="frame1196-sidebar-link">ГЛАВНАЯ</Link>
+              <Link href="/vikup" className="frame1196-sidebar-link">ВЫКУП Б/У МАШИН</Link>
+              <Link href="#" className="frame1196-sidebar-link">СТАТЬИ</Link>
             </nav>
           </div>
         </div>
@@ -204,6 +209,20 @@ const Header = () => {
           /* У��икальный контейнер компонента */
           .header-component {
             width: 100%;
+          }
+
+          /* Стили для ссылок */
+          .frame1196-container105,
+          .frame1196-container106,
+          .frame1196-container107 {
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+
+          .frame1196-container105:hover,
+          .frame1196-container106:hover,
+          .frame1196-container107:hover {
+            background-color: #87ceeb;
           }
 
           /* Основные стили хедера */

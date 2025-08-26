@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const MainFooter = () => {
 
@@ -99,27 +100,27 @@ const MainFooter = () => {
             </div>
           </div>
           <nav className="frame1196-container238">
-            <span className="frame1196-text288">
+            <Link href="/" className="frame1196-text288">
               <span
                 dangerouslySetInnerHTML={{
                   __html: 'Главная',
                 }}
               ></span>
-            </span>
-            <span className="frame1196-text289">
+            </Link>
+            <Link href="/vikup" className="frame1196-text289">
               <span
                 dangerouslySetInnerHTML={{
                   __html: 'Выкуп б/y машин',
                 }}
               ></span>
-            </span>
-            <span className="frame1196-text290">
+            </Link>
+            <Link href="#" className="frame1196-text290">
               <span
                 dangerouslySetInnerHTML={{
                   __html: 'Статьи',
                 }}
               ></span>
-            </span>
+            </Link>
           </nav>
         </div>
       </footer>
@@ -335,30 +336,30 @@ const MainFooter = () => {
             flex-direction: column;
           }
 
-          .frame1196-text288 {
-            fill: #87ceeb;
-            color: #87ceeb;
-            font-size: 15px;
-            font-style: normal;
-            font-family: 'Noto Serif SC';
-            font-weight: 500;
-          }
-
-          .frame1196-text289 {
-            font-size: 15px;
-            font-style: normal;
-            font-family: 'Noto Serif SC';
-            font-weight: 500;
-          }
-
+          .frame1196-text288,
+          .frame1196-text289,
           .frame1196-text290 {
             font-size: 15px;
             font-style: normal;
             font-family: 'Noto Serif SC';
             font-weight: 500;
-            line-height: normal;
-            text-transform: capitalize;
             text-decoration: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
+          }
+
+          .frame1196-text288 {
+            color: #87ceeb;
+          }
+
+          .frame1196-text289,
+          .frame1196-text290 {
+            color: #000;
+          }
+
+          .frame1196-text289:hover,
+          .frame1196-text290:hover {
+            color: #87ceeb;
           }
 
           .frame1196-text291 {
@@ -561,21 +562,15 @@ const MainFooter = () => {
               margin-top: 0px;
             }
 
-            .frame1196-text288 {
-              fill: #87ceeb;
-              color: #87ceeb;
-              font-style: normal;
-              font-weight: 400;
-            }
-
-            .frame1196-text289 {
-              font-style: normal;
-              font-weight: 400;
-            }
-
+            .frame1196-text288,
+            .frame1196-text289,
             .frame1196-text290 {
               font-style: normal;
               font-weight: 400;
+            }
+
+            .frame1196-text288 {
+              color: #87ceeb;
             }
 
             .frame1196-text291 {

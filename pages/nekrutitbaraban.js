@@ -49,7 +49,7 @@ const Page = (props) => {
                   cx="5"
                   cy="10"
                   fill="#606060"
-                  vector-effect="non-scaling-stroke"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -65,7 +65,7 @@ const Page = (props) => {
                   cx="5"
                   cy="10"
                   fill="#606060"
-                  vector-effect="non-scaling-stroke"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -81,7 +81,7 @@ const Page = (props) => {
                   cx="5"
                   cy="10"
                   fill="#606060"
-                  vector-effect="non-scaling-stroke"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -97,7 +97,7 @@ const Page = (props) => {
                   cx="5"
                   cy="10"
                   fill="#606060"
-                  vector-effect="non-scaling-stroke"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <strong className="page-text14">
@@ -174,9 +174,9 @@ const Page = (props) => {
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -191,9 +191,9 @@ const Page = (props) => {
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -208,9 +208,9 @@ const Page = (props) => {
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -225,9 +225,9 @@ const Page = (props) => {
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
             </section>
@@ -248,9 +248,9 @@ const Page = (props) => {
                     d="M0 10 H330"
                     fill="none"
                     stroke="#000000"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
               </div>
@@ -316,7 +316,7 @@ const Page = (props) => {
                     {' '}
                     Включите любой короткий цикл (например, «хлопок») на обычной
                     мощности б��з загрузки белья. Проследите, начнётся ли
-                    вращение барабана на этапе отжима. Если барабан по-прежнему
+                    вращение барабана на эта��е отжима. Если барабан по-прежнему
                     не вращается, это укажет на неисправность механизма.
                   </span>
                   <br></br>
@@ -346,9 +346,9 @@ const Page = (props) => {
                     d="M0 10 H330"
                     fill="none"
                     stroke="#000000"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
               </div>
@@ -390,9 +390,9 @@ const Page = (props) => {
                     d="M0 10 H330"
                     fill="none"
                     stroke="#000000"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
               </div>
@@ -417,7 +417,7 @@ const Page = (props) => {
                   (налив, нагрев), но не передавать вращение на барабан. В таких
                   ситуациях при доступе к задней панели можно визуально
                   осмотреть ремень: если он перекинул��я, его аккуратно
-                  возвращают на шкив, а при явных повреждениях ремень меняют —
+                  возвращают на шкив, а при явных повреждения�� ремень меняют —
                   при отсутствии уверенности в своих навыках лучше доверить
                   замену мастеру, чтобы избежать невер��ой установки или
                   дополнительного повреждения.
@@ -441,9 +441,9 @@ const Page = (props) => {
                     d="M0 10 H330"
                     fill="none"
                     stroke="#000000"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
               </div>
@@ -493,9 +493,9 @@ const Page = (props) => {
                     d="M0 10 H330"
                     fill="none"
                     stroke="#000000"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
               </div>
@@ -515,7 +515,7 @@ const Page = (props) => {
                   сенсоров может приводить к тому, что контроллер не получает
                   корректных данных о положении и оборотах барабана и блокирует
                   отжим; проявления варьируются от мигающих ошибок на дисплее до
-                  полной неработоспособности на отдельных этапах. В таких
+                  полной неработос��особности на отдельных этапах. В таких
                   случаях перезагрузка — кратковременное отключение питания —
                   иногда устраняет временные сбои, но при повторяющихся ошибках
                   требуется профессиональная диагностика и ремонт элек��роники,
@@ -543,7 +543,7 @@ const Page = (props) => {
                   cx="5"
                   cy="10"
                   fill="#606060"
-                  vector-effect="non-scaling-stroke"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -559,7 +559,7 @@ const Page = (props) => {
                   cx="5"
                   cy="10"
                   fill="#606060"
-                  vector-effect="non-scaling-stroke"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -575,7 +575,7 @@ const Page = (props) => {
                   cx="5"
                   cy="10"
                   fill="#606060"
-                  vector-effect="non-scaling-stroke"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -591,7 +591,7 @@ const Page = (props) => {
                   cx="5"
                   cy="10"
                   fill="#606060"
-                  vector-effect="non-scaling-stroke"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -606,9 +606,9 @@ const Page = (props) => {
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -623,9 +623,9 @@ const Page = (props) => {
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -640,9 +640,9 @@ const Page = (props) => {
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -657,9 +657,9 @@ const Page = (props) => {
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <h2 className="page-text50">Когда вызывать мастера?</h2>
@@ -696,9 +696,9 @@ const Page = (props) => {
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <strong className="page-text58">Работаем без выходных</strong>
@@ -782,9 +782,9 @@ const Page = (props) => {
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <div className="page-container39">
@@ -813,7 +813,7 @@ const Page = (props) => {
                   className="page-image38230322"
                 />
                 <span className="page-text69">
-                  Как удалить пятна крови с одежды без следов?
+                  Как уд��лить пятна крови с одежды без следов?
                 </span>
               </div>
               <div className="page-container43">
