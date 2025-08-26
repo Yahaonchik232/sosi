@@ -253,7 +253,7 @@ const Frame1196 = (props) => {
             </a>
             <a href="/nekrutitbaraban" className="frame1196-container122">
               <h3 className="frame1196-text121">
-                Стиральная машина не крутит барабан
+                Стиральная машина не кру��ит барабан
               </h3>
               <div className="frame1196-arrow19">
                 <svg
@@ -1681,7 +1681,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Gorenje в Одессе - п��офессиональный ��ервис"
+                  alt="Ремонт стира��ьных машин Gorenje в Одессе - п��офессиональный ��ервис"
                   src="/brands/gorenje-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image37"
@@ -1745,7 +1745,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин LG в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральн��х машин LG в Одессе - профессиональный сервис"
                   src="/brands/lg-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image45"
@@ -3815,7 +3815,7 @@ to {transform: translateX(-2620px);}}
               &quot;Я считаю это победа над стиральной машино��, которой 12
               лет))  Очень круто!! Благодарю!! Она пала в руки мастера и
               отдалась ему полностью, а н�� стала бры��аться. не знаю, что он там
-              с ней делал, но сейчас она как шелковая стирает мой ситцевое
+              с ней делал, но сейчас она как шелковая стирает мой ситцев��е
               кружевно�� белье&lt;3&quot;
             </p>
             <svg
@@ -4090,6 +4090,7 @@ to {transform: translateX(-2620px);}}
             }}
           ></span>
         </button>
+        <div className="main-footer-isolation">
         <footer className="frame1196-container229">
           <div className="frame1196-container230">
             <div className="frame1196-container231">
@@ -4209,6 +4210,7 @@ to {transform: translateX(-2620px);}}
             </nav>
           </div>
         </footer>
+        </div>
         <span className="frame1196-text291">
           <span className="frame1196-text292">&quot;Ваше название&quot;</span>
           <span>: сервис по ремонту стир��льных ма��ин</span>
