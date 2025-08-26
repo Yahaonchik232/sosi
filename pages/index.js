@@ -41,220 +41,238 @@ const Frame1196 = (props) => {
             </button>
           </div>
           <article className="frame1196-cards">
-            <a href="/1/NE SLIVAET VODU.html" className="frame1196-container113">
-              <h3 className="frame1196-text112">
-                Стиральная машина не сливает воду
-              </h3>
-              <div className="frame1196-arrow10">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="frame1196-icon108"
-                >
-                  <path
-                    d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <img
-                alt="Стиральная машина не сливает воду"
-                src="/problems 2/11-300h.webp"
-                loading="eager"
-                className="frame1196-image15"
-              />
-            </a>
-            <a href="/1/NE GREET VODU.html" className="frame1196-container114">
-              <h3 className="frame1196-text113">
-                Стиральная машина не гре��т воду
-              </h3>
-              <div className="frame1196-arrow11">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="frame1196-icon110"
-                >
-                  <path
-                    d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <img
-                alt="Стиральная машина не нагревает воду"
-                src="/problems 2/21-300h.webp"
-                loading="eager"
-                className="frame1196-image16"
-              />
-            </a>
-            <a href="/1/PROTEKAET.html" className="frame1196-container115">
-              <h3 className="frame1196-text114">Стиральная машина п��отекает</h3>
-              <div className="frame1196-arrow12">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="frame1196-icon112"
-                >
-                  <path
-                    d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <img
-                alt="Стиральная машин�� протекает"
-                src="/problems 2/31-300h.webp"
-                loading="eager"
-                className="frame1196-image17"
-              />
-            </a>
-            <a href="/2/SILNOSHUMIT.html" className="frame1196-container116">
-              <h3 className="frame1196-text115">
-                Стиральная маш��на шумит при отжиме
-              </h3>
-              <div className="frame1196-arrow13">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="frame1196-icon114"
-                >
-                  <path
-                    d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <img
-                alt="Стир��льная машина шумит п���и отжиме"
-                src="/problems/4-300h.webp"
-                loading="eager"
-                className="frame1196-image18"
-              />
-            </a>
-            <a href="/2/NE VKLUCHAETSA.html" className="frame1196-container117">
-              <h3 className="frame1196-text116">
-                Стира��ьн��я ма��ина не включ��ется
-              </h3>
-              <div className="frame1196-arrow14">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="frame1196-icon116"
-                >
-                  <path
-                    d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <img
-                alt="Стиральная маши��а не включаетс"
-                src="/problems 2/51-300h.webp"
-                loading="eager"
-                className="frame1196-image19"
-              />
-            </a>
-            <a href="/2/ZAVISAET NA PROGRAMME.html" className="frame1196-container118">
-              <h3 className="frame1196-text117">
-                С��иральная машина зависает на прогр��мме
-              </h3>
-              <div className="frame1196-arrow15">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="frame1196-icon118"
-                >
-                  <path
-                    d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <img
-                alt="��тиральная машина ��ависает на программе"
-                src="/problems 2/61-300h.webp"
-                loading="eager"
-                className="frame1196-image20"
-              />
-            </a>
-            <a href="/3/NE OTJIMAET.html" className="frame1196-container119">
-              <h3 className="frame1196-text118">
-                Стиральная машина не отжимает
-              </h3>
-              <div className="frame1196-arrow16">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="frame1196-icon120"
-                >
-                  <path
-                    d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <img
-                alt="Стиральная машина не отж��мает"
-                src="/problems 2/71-300h.webp"
-                loading="eager"
-                className="frame1196-image21"
-              />
-            </a>
-            <a href="/3/NE NABIRAET VODU.html" className="frame1196-container120">
-              <h3 className="frame1196-text119">
-                Стиральная машина не набир��ет воду
-              </h3>
-              <div className="frame1196-arrow17">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="frame1196-icon122"
-                >
-                  <path
-                    d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <img
-                alt="Стиральная маш��на н�� н��бирает во��у"
-                src="/problems/8-300h.webp"
-                loading="eager"
-                className="frame1196-image22"
-              />
-            </a>
-            <a href="/3/NE OTKRIVAETSA DVERCA.html" className="frame1196-container121">
-              <h3 className="frame1196-text120">
-                У ��тиральной машины не открывается дверца
-              </h3>
-              <div className="frame1196-arrow18">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="frame1196-icon124"
-                >
-                  <path
-                    d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <img
-                alt="Не от����рывается дверца стиральной машины"
-                src="/problems 2/91-300h.webp"
-                loading="eager"
-                className="frame1196-image23"
-              />
-            </a>
+            <Link href="/NESLIVAETIVODU">
+              <a className="frame1196-container113">
+                <h3 className="frame1196-text112">
+                  Стиральная машина не сливает воду
+                </h3>
+                <div className="frame1196-arrow10">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="frame1196-icon108"
+                  >
+                    <path
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <img
+                  alt="Стиральная машина не сливает воду"
+                  src="/problems 2/11-300h.webp"
+                  loading="eager"
+                  className="frame1196-image15"
+                />
+              </a>
+            </Link>
+            <Link href="/NEGREETIVODU">
+              <a className="frame1196-container114">
+                <h3 className="frame1196-text113">
+                  Стиральная машина не гре��т воду
+                </h3>
+                <div className="frame1196-arrow11">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="frame1196-icon110"
+                  >
+                    <path
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <img
+                  alt="Стиральная машина не нагревает воду"
+                  src="/problems 2/21-300h.webp"
+                  loading="eager"
+                  className="frame1196-image16"
+                />
+              </a>
+            </Link>
+            <Link href="/PROTEKAET">
+              <a className="frame1196-container115">
+                <h3 className="frame1196-text114">Стиральная машина п��отекает</h3>
+                <div className="frame1196-arrow12">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="frame1196-icon112"
+                  >
+                    <path
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <img
+                  alt="Стиральная машин�� протекает"
+                  src="/problems 2/31-300h.webp"
+                  loading="eager"
+                  className="frame1196-image17"
+                />
+              </a>
+            </Link>
+            <Link href="/SILNOSHUMIT">
+              <a className="frame1196-container116">
+                <h3 className="frame1196-text115">
+                  Стиральная маш��на шумит при отжиме
+                </h3>
+                <div className="frame1196-arrow13">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="frame1196-icon114"
+                  >
+                    <path
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <img
+                  alt="Стир��льная машина шумит п���и отжиме"
+                  src="/problems/4-300h.webp"
+                  loading="eager"
+                  className="frame1196-image18"
+                />
+              </a>
+            </Link>
+            <Link href="/NEVKLUCHAETSA">
+              <a className="frame1196-container117">
+                <h3 className="frame1196-text116">
+                  Стира��ьн��я ма��ина не включ��ется
+                </h3>
+                <div className="frame1196-arrow14">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="frame1196-icon116"
+                  >
+                    <path
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <img
+                  alt="Стиральная маши��а не включаетс"
+                  src="/problems 2/51-300h.webp"
+                  loading="eager"
+                  className="frame1196-image19"
+                />
+              </a>
+            </Link>
+            <Link href="/ZAVISAETNAPROGRAMME">
+              <a className="frame1196-container118">
+                <h3 className="frame1196-text117">
+                  С��иральная машина зависает на прогр��мме
+                </h3>
+                <div className="frame1196-arrow15">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="frame1196-icon118"
+                  >
+                    <path
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <img
+                  alt="��тиральная машина ��ависает на программе"
+                  src="/problems 2/61-300h.webp"
+                  loading="eager"
+                  className="frame1196-image20"
+                />
+              </a>
+            </Link>
+            <Link href="/NEOTJIMAET">
+              <a className="frame1196-container119">
+                <h3 className="frame1196-text118">
+                  Стиральная машина не отжимает
+                </h3>
+                <div className="frame1196-arrow16">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="frame1196-icon120"
+                  >
+                    <path
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <img
+                  alt="Стиральная машина не отж��мает"
+                  src="/problems 2/71-300h.webp"
+                  loading="eager"
+                  className="frame1196-image21"
+                />
+              </a>
+            </Link>
+            <Link href="/NENABIRRAETVODU">
+              <a className="frame1196-container120">
+                <h3 className="frame1196-text119">
+                  Стиральная машина не набир��ет воду
+                </h3>
+                <div className="frame1196-arrow17">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="frame1196-icon122"
+                  >
+                    <path
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <img
+                  alt="Стиральная маш��на н�� н��бирает во��у"
+                  src="/problems/8-300h.webp"
+                  loading="eager"
+                  className="frame1196-image22"
+                />
+              </a>
+            </Link>
+            <Link href="/NEOTKRIVATSADVERCA">
+              <a className="frame1196-container121">
+                <h3 className="frame1196-text120">
+                  У ��тиральной машины не открывается дверца
+                </h3>
+                <div className="frame1196-arrow18">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="frame1196-icon124"
+                  >
+                    <path
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <img
+                  alt="Не от����рывается дверца стиральн��й машины"
+                  src="/problems 2/91-300h.webp"
+                  loading="eager"
+                  className="frame1196-image23"
+                />
+              </a>
+            </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
               <h3 className="frame1196-text121">
                 Стиральная машина не кру��ит бара��ан
@@ -287,7 +305,7 @@ const Frame1196 = (props) => {
             <span className="frame1196-text124">РемСтирМаш</span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
-              мы заботимся о надёжной работе вашей техники во всех уголках
+              мы заботимся о надёжной работе вашей техники во всех уголк��х
               Одессы.
             </span>
             <br className="frame1196-text127" />
@@ -673,7 +691,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text147">2</span>
                 </div>
                 <span className="frame1196-text148">
-                  Д��агностика оборудования (при ремонте)
+                  Д���агностика оборудования (при ремонте)
                 </span>
               </div>
               <div className="frame1196-container139">
@@ -1097,7 +1115,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text183">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Замена щеток двигателя (с учетом стоимости щеток)',
+                        __html: 'Замена щеток двигателя (с учето�� стоимости щеток)',
                       }}
                     ></span>
                   </span>
@@ -1675,7 +1693,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Electrolux в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Electrolux �� Одессе - профессиональный сервис"
                   src="/brands/electrolux-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image36"
@@ -2180,7 +2198,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text221">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Получаем нужные запчасти быстро, по выгодным ценам и без переплат.',
+                      __html: 'Получаем нужные запчасти б��стро, по выгодным ценам и без переплат.',
                     }}
                   ></span>
                 </p>
@@ -3252,7 +3270,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text242">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'На все виды работ даем гарантию 6 месяцев, на замененные запчасти - 1 год. ��арантийный та��он выдается сразу после завершения ремонта',
+                      __html: 'На все виды работ даем гарантию 6 месяцев, на замененные запчасти - 1 год. ��ара��тийный та��он выдается сразу после завершения ремонта',
                     }}
                   ></span>
                 </p>
@@ -3528,7 +3546,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text252 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'П��д брендом "Ваше Название" работает команда мастеров...',
+                __html: 'П��д брендом "Ваше ��азвание" работает команда мастеров...',
               }}
             ></span>
           </p>
@@ -3562,7 +3580,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'В ш��ате т��лько опытные мастера с профильной подготовкой.',
+                    __html: '�� ш��ате т��лько опытные мастера с профильной подготовкой.',
                   }}
                 ></span>
               </span>
@@ -3903,7 +3921,7 @@ to {transform: translateX(-2620px);}}
             <p className="frame1196-text278">
               &quot;Я считаю это победа над стиральной м��шино��, которой 12
               лет))  Очень круто!! ��лагодарю!! Она пала в руки мастера и
-              отдала��ь ем�� полностью, а н�� стала бры��аться. не знаю, что он там
+              отдала��ь ем�� полностью, а н�� стала бры��аться. ��е знаю, что он там
               с ней делал, но сейчас она как шелковая стирает мой ситцев���е
               кружевно��� белье&lt;3&quot;
             </p>

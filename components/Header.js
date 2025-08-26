@@ -1,12 +1,27 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const router = useRouter()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
+
+  // Проверяем, является ли текущая страница страницей проблемы
+  const isProblemPage = router.pathname && (
+    router.pathname.includes('NESLIVAETIVODU') ||
+    router.pathname.includes('NEGREETIVODU') ||
+    router.pathname.includes('PROTEKAET') ||
+    router.pathname.includes('SILNOSHUMIT') ||
+    router.pathname.includes('NEVKLUCHAETSA') ||
+    router.pathname.includes('ZAVISAETNAPROGRAMME') ||
+    router.pathname.includes('NEOTJIMAET') ||
+    router.pathname.includes('NENABIRRAETVODU') ||
+    router.pathname.includes('NEOTKRIVATSADVERCA')
+  )
 
   return (
     <>
@@ -196,14 +211,43 @@ const Header = () => {
               </button>
             </div>
             <nav className="frame1196-sidebar-nav">
-              <Link href="/" className="frame1196-sidebar-link">ГЛАВНАЯ</Link>
-              <Link href="/vikup" className="frame1196-sidebar-link">ВЫКУП Б/У МАШИН</Link>
-              <Link href="#" className="frame1196-sidebar-link">СТАТЬИ</Link>
+              <a
+                href="/"
+                className={`frame1196-sidebar-link ${router.pathname === '/' ? 'frame1196-sidebar-link-active' : ''}`}
+                style={{ color: router.pathname === '/' ? '#87ceeb !important' : 'white !important' }}
+              >
+                ГЛАВНАЯ
+              </a>
+              <a
+                href="/vikup"
+                className={`frame1196-sidebar-link ${router.pathname === '/vikup' ? 'frame1196-sidebar-link-active' : ''}`}
+                style={{ color: router.pathname === '/vikup' ? '#87ceeb !important' : 'white !important' }}
+              >
+                ВЫКУП Б/У МАШИН
+              </a>
+              <a
+                href="#"
+                className={`frame1196-sidebar-link ${isProblemPage ? 'frame1196-sidebar-link-active' : ''}`}
+                style={{ color: isProblemPage ? '#87ceeb !important' : 'white !important' }}
+              >
+                СТАТЬИ
+              </a>
             </nav>
           </div>
         </div>
       </div>
 
+      <style jsx global>
+        {`
+          /* Глобальные стили для принуждения цвета в sidebar */
+          .frame1196-sidebar-nav a {
+            color: white !important;
+          }
+          .frame1196-sidebar-nav a.frame1196-sidebar-link-active {
+            color: #87ceeb !important;
+          }
+        `}
+      </style>
       <style jsx>
         {`
           /* У��икальный контейнер компонента */
@@ -543,8 +587,8 @@ const Header = () => {
           }
 
           .frame1196-sidebar-link {
-            color: white;
-            text-decoration: none;
+            color: white !important;
+            text-decoration: none !important;
             font-size: 18px;
             font-family: 'Roboto';
             font-weight: 500;
@@ -552,11 +596,44 @@ const Header = () => {
             border-radius: 8px;
             background-color: rgba(46, 51, 55, 0.41);
             text-align: center;
-            transition: background-color 0.3s ease;
+            transition: all 0.3s ease;
+            display: block;
+          }
+
+          .frame1196-sidebar-nav a {
+            color: white !important;
+            text-decoration: none !important;
+          }
+
+          .frame1196-sidebar-nav a:visited {
+            color: white !important;
+          }
+
+          .frame1196-sidebar-nav a:link {
+            color: white !important;
           }
 
           .frame1196-sidebar-link:hover {
             background-color: #87ceeb;
+            color: white !important;
+          }
+
+          .frame1196-sidebar-link-active {
+            color: #87ceeb !important;
+            background-color: rgba(135, 206, 235, 0.2) !important;
+          }
+
+          .frame1196-sidebar-link-active:hover {
+            color: #87ceeb !important;
+            background-color: rgba(135, 206, 235, 0.3) !important;
+          }
+
+          .frame1196-sidebar-nav a.frame1196-sidebar-link-active {
+            color: #87ceeb !important;
+          }
+
+          .frame1196-sidebar-nav a.frame1196-sidebar-link-active:visited {
+            color: #87ceeb !important;
           }
 
           /* Медиа-запросы */
