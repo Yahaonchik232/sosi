@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl'
 import Blue2 from '../components/blue2'
 import Blue1 from '../components/blue1'
 import Header from '../components/Header'
+import Footer from '../components/footer'
 
 const Frame1196 = (props) => {
   const translate = useTranslations()
@@ -124,7 +125,7 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Стиральная машина шумит при отжиме"
+                alt="Стиральная машина шумит п��и отжиме"
                 src="/problems/4-300h.webp"
                 loading="eager"
                 className="frame1196-image18"
@@ -156,7 +157,7 @@ const Frame1196 = (props) => {
             </a>
             <a href="/2/ZAVISAET NA PROGRAMME.html" className="frame1196-container118">
               <h3 className="frame1196-text117">
-                Стиральная машина зависает на прогр��мме
+                С��иральная машина зависает на прогр��мме
               </h3>
               <div className="frame1196-arrow15">
                 <svg
@@ -220,7 +221,7 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Стиральная машина не набирает воду"
+                alt="Стиральная машина не набирает во��у"
                 src="/problems/8-300h.webp"
                 loading="eager"
                 className="frame1196-image22"
@@ -244,7 +245,7 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Не открывается дверца стиральной машины"
+                alt="Не от��рывается дверца стиральной машины"
                 src="/problems 2/91-300h.webp"
                 loading="eager"
                 className="frame1196-image23"
@@ -276,13 +277,14 @@ const Frame1196 = (props) => {
             </a>
           </article>
         </section>
+        <div className="footer-isolate">
         <section className="frame1196-container123">
           <p className="frame1196-text122">
             <span className="frame1196-text123">В</span>
             <span className="frame1196-text124">РемСтирМаш</span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
-              мы заботимся о надёжной работе вашей техники во всех уголках
+              мы заботимся о ��адёжной работе вашей техники во всех уголках
               Од��ссы.
             </span>
             <br className="frame1196-text127" />
@@ -668,7 +670,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text147">2</span>
                 </div>
                 <span className="frame1196-text148">
-                  Диагностика оборудования (при ремонте)
+                  Д��агностика оборудования (при ремонте)
                 </span>
               </div>
               <div className="frame1196-container139">
@@ -1593,6 +1595,7 @@ const Frame1196 = (props) => {
             </svg>
           </section>
         </section>
+        </div>
         <section className="frame1196-remont-vsehmar">
           <div className="frame1196-remont-vseh-marok">
             <h2 className="frame1196-text215">
@@ -1654,7 +1657,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Рем��нт стиральных машин Bosch в Одессе - профессион��льный сервис"
+                  alt="Рем��нт стиральных машин Bosch в Одессе - професс��он��льный сервис"
                   src="/brands/bosch-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image34"
@@ -1686,7 +1689,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Ardo в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Ardo в Одессе - профессион��льный сервис"
                   src="/brands/image%203823123-200h.webp"
                   loading="eager"
                   className="frame1196-image38"
@@ -1694,7 +1697,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Siemens в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Siemens в Оде��се - профессиональный сервис"
                   src="/brands/image%203823125-200h.webp"
                   loading="eager"
                   className="frame1196-image39"
@@ -1710,7 +1713,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="��емонт стиральных машин Beko в Одессе - профессиональный сервис"
+                  alt="��емонт стиральных машин Beko в Одессе - профессиональ��ый сервис"
                   src="/brands/image%203823127-200h.webp"
                   loading="eager"
                   className="frame1196-image41"
@@ -1726,7 +1729,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Miele в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Miele в Одессе - профессион��льный сервис"
                   src="/brands/image%203823129-200h.webp"
                   loading="eager"
                   className="frame1196-image43"
@@ -3024,7 +3027,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container195">
               <div className="frame1196-container196">
                 <figcaption className="frame1196-text234">
-                  Ремонт подшипников на стиралке Samsung
+                  Ремонт подшипников на с��иралке Samsung
                 </figcaption>
               </div>
             </div>
@@ -4943,11 +4946,11 @@ to {transform: translateX(-2620px);}}
             align-items: center;
             flex-direction: column;
             padding-bottom: var(--dl-layout-space-twounits);
-            background-size: cover;
-            justify-content: center;
             background-image: url('/backgrounds/dada.png');
+            background-size: cover;
             background-repeat: no-repeat;
-            background-position: top right;
+            background-position: center center;
+            justify-content: center;
           }
           .frame1196-text122 {
             color: rgb(55, 55, 55);
@@ -8627,7 +8630,10 @@ to {transform: translateX(-2620px);}}
             }
             .frame1196-container123 {
               width: 100%;
-              background-image: none;
+              background-image: url('/backgrounds/dada.png');
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center center;
             }
             .frame1196-text122 {
               font-size: 17px;
@@ -9290,6 +9296,10 @@ to {transform: translateX(-2620px);}}
             }
             .frame1196-container123 {
               width: 100%;
+              background-image: url('/backgrounds/dada.png');
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center center;
             }
             .frame1196-text122 {
               font-size: 17px;
@@ -10062,6 +10072,10 @@ to {transform: translateX(-2620px);}}
               width: 100%;
               height: 100%;
               padding-bottom: 0px;
+              background-image: url('/backgrounds/dada.png');
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center center;
             }
             .frame1196-text122 {
               color: rgb(55, 55, 55);
@@ -11452,7 +11466,7 @@ to {transform: translateX(-2620px);}}
 export default Frame1196
 
 export async function getStaticProps(context) {
-  const messages = (await import('/locales/' + context.locale + '.json'))
+  const messages = (await import(`/locales/${context.locale}.json`))
     .default
   return {
     props: {
