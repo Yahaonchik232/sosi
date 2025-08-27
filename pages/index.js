@@ -8,7 +8,7 @@ import Script from 'dangerous-html/react'
 import Blue2 from '../components/blue2'
 import Blue1 from '../components/blue1'
 import Header from '../components/Header'
-import Footer from '../components/footer'
+import MainFooter from '../components/MainFooter'
 
 const Frame1196 = (props) => {
   const [activeFAQ, setActiveFAQ] = useState(1)
@@ -35,7 +35,7 @@ const Frame1196 = (props) => {
     <>
       <main className="frame1196-container100">
         <Head>
-          <title>Ремонт стиральных машин в Одессе</title>
+          <title>Ремонт стиральных ��ашин в Одессе</title>
         </Head>
         <Header />
 
@@ -56,7 +56,7 @@ const Frame1196 = (props) => {
             </button>
           </div>
           <article className="frame1196-cards">
-            <Link href="/NESLIVAETIVODU">
+            <Link href="/neslivaetvodu">
               <a className="frame1196-container113">
                 <h3 className="frame1196-text112">
                   Стиральная машина не сливает воду
@@ -82,7 +82,7 @@ const Frame1196 = (props) => {
                 />
               </a>
             </Link>
-            <Link href="/NEGREETIVODU">
+            <Link href="/negreetvodu">
               <a className="frame1196-container114">
                 <h3 className="frame1196-text113">
                   Стиральная машина не гре��т воду
@@ -108,7 +108,7 @@ const Frame1196 = (props) => {
                 />
               </a>
             </Link>
-            <Link href="/PROTEKAET">
+            <Link href="/protekaet">
               <a className="frame1196-container115">
                 <h3 className="frame1196-text114">Стиральная машина п��отекает</h3>
                 <div className="frame1196-arrow12">
@@ -132,7 +132,7 @@ const Frame1196 = (props) => {
                 />
               </a>
             </Link>
-            <Link href="/SILNOSHUMIT">
+            <Link href="/silnoshumit">
               <a className="frame1196-container116">
                 <h3 className="frame1196-text115">
                   Стиральная маш��на шумит при отжим��
@@ -158,10 +158,10 @@ const Frame1196 = (props) => {
                 />
               </a>
             </Link>
-            <Link href="/NEVKLUCHAETSA">
+            <Link href="/nevkluchaetsa">
               <a className="frame1196-container117">
                 <h3 className="frame1196-text116">
-                  Стира��ьн��я ма��ина не включ��ется
+                  Стира��ьн����я ма��ина не включ��ет��я
                 </h3>
                 <div className="frame1196-arrow14">
                   <svg
@@ -184,7 +184,7 @@ const Frame1196 = (props) => {
                 />
               </a>
             </Link>
-            <Link href="/ZAVISAETNAPROGRAMME">
+            <Link href="/zavisaetnaprogramme">
               <a className="frame1196-container118">
                 <h3 className="frame1196-text117">
                   С��иральная машина зависает на прогр��мме
@@ -210,7 +210,7 @@ const Frame1196 = (props) => {
                 />
               </a>
             </Link>
-            <Link href="/NEOTJIMAET">
+            <Link href="/neotjimaet">
               <a className="frame1196-container119">
                 <h3 className="frame1196-text118">
                   Стиральная машина не отжимает
@@ -236,7 +236,7 @@ const Frame1196 = (props) => {
                 />
               </a>
             </Link>
-            <Link href="/NENABIRRAETVODU">
+            <Link href="/nenabiraetvodu">
               <a className="frame1196-container120">
                 <h3 className="frame1196-text119">
                   Стиральная машина не набир��ет воду
@@ -255,14 +255,14 @@ const Frame1196 = (props) => {
                   </svg>
                 </div>
                 <img
-                  alt="Стиральная маш��на н�� н��бирает во��у"
+                  alt="Стиральная маш����а н�� н��бирает во��у"
                   src="/problems/8-300h.webp"
                   loading="eager"
                   className="frame1196-image22"
                 />
               </a>
             </Link>
-            <Link href="/NEOTKRIVATSADVERCA">
+            <Link href="/neotkrivaetsadverca">
               <a className="frame1196-container121">
                 <h3 className="frame1196-text120">
                   У ��тиральной машины не открывается дверца
@@ -281,7 +281,7 @@ const Frame1196 = (props) => {
                   </svg>
                 </div>
                 <img
-                  alt="Не от�����рывается дверца стиральн��й машины"
+                  alt="Не от�����рывается дверца стирал��н��й машины"
                   src="/problems 2/91-300h.webp"
                   loading="eager"
                   className="frame1196-image23"
@@ -290,7 +290,7 @@ const Frame1196 = (props) => {
             </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
               <h3 className="frame1196-text121">
-                С��иральная машина не кру��ит бара��ан
+                С��иральная машина не кру���ит бара��ан
               </h3>
               <div className="frame1196-arrow19">
                 <svg
@@ -320,7 +320,7 @@ const Frame1196 = (props) => {
             <span className="frame1196-text124">РемСтирМаш</span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
-              мы заботимся о надёжной работе вашей тех��ики во всех уголк��х
+              мы заботим��я о надёжной работе вашей тех��ики во всех уголк���х
               Одессы.
             </span>
             <br className="frame1196-text127" />
@@ -930,7 +930,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text166">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
+                        __html: 'Выз��ать мастера',
                       }}
                     ></span>
                   </span>
@@ -1252,7 +1252,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text194">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
+                        __html: 'Вызва��ь мастера',
                       }}
                     ></span>
                   </span>
@@ -1642,7 +1642,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container150">
               <Script
                 html={`<style>
-/* Для экр��нов ��о 767px включительн�� */
+/* Для экр��нов ��о 767px включите��ьн�� */
 @media (max-width: 767px) {
     @keyframes scroll {
         from {
@@ -1681,7 +1681,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Р��монт стиральных ��ашин Beko в Одессе - профессиональный сервис"
+                  alt="Р���монт стиральных ��ашин Beko в Оде��се - профессиональный сервис"
                   src="/brands/beko-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image33"
@@ -1721,7 +1721,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Ardo в О��ессе - профессион��л��н��й сервис"
+                  alt="Р��монт стиральных машин Ardo в О��ессе - профессион��л��н��й сервис"
                   src="/brands/image%203823123-200h.webp"
                   loading="eager"
                   className="frame1196-image38"
@@ -1777,7 +1777,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральн��х машин LG в Одессе - профессиональный се��вис"
+                  alt="Ремонт стиральн��х машин LG в Одессе - профессиональны�� се��вис"
                   src="/brands/lg-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image45"
@@ -2011,7 +2011,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text219">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Находим неисправности быстро и то��но благодаря про��ессиональной те����ик��.',
+                      __html: 'Находим неисправности быстро и то��но благодаря про��ессиональной ��е����ик��.',
                     }}
                   ></span>
                 </p>
@@ -3028,7 +3028,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container187">
               <div className="frame1196-container188">
                 <figcaption className="frame1196-text230">
-                  Вышел из ст��оя нагре��ательный элемент на Bosch
+                  Вышел из с����оя нагре��ательный элемент на Bosch
                 </figcaption>
               </div>
             </div>
@@ -3049,14 +3049,14 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container193">
               <div className="frame1196-container194">
                 <figcaption className="frame1196-text233">
-                  ��амена втулки крестовины на LG
+                  ��амена втулки крест��вины на LG
                 </figcaption>
               </div>
             </div>
             <div className="frame1196-container195">
               <div className="frame1196-container196">
                 <figcaption className="frame1196-text234">
-                  Ремонт подшипников на с��иралке Samsung
+                  Ремонт подшипников на с��ирал��е Samsung
                 </figcaption>
               </div>
             </div>
@@ -3077,7 +3077,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container201">
               <div className="frame1196-container202">
                 <figcaption className="frame1196-text237">
-                  Комплексный ремонт стиральной машины Zanussi
+                  Компл��ксный ремонт стиральной машины Zanussi
                 </figcaption>
               </div>
             </div>
@@ -3268,7 +3268,7 @@ to {transform: translateX(-2620px);}}
               >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Какую гарантию вы предоставляете?',
+                    __html: 'Какую гарант��ю вы предоставляете?',
                   }}
                 ></span>
               </h3>
@@ -3385,7 +3385,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text246">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Масте�� возит базовый набор популярных запчастей. Для редких моделей заказываем ��ет��ли за 1-2 дня. Проверяем наличие по телефону зар��нее.',
+                      __html: 'Масте�� возит базовый набор популярных запчастей. Для редких моделей заказываем ����ет��ли за 1-2 дня. Проверя��м наличие по телефону зар��нее.',
                     }}
                   ></span>
                 </p>
@@ -3439,7 +3439,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text248">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Если стоимость р��монта превышает 60% от цены новой машины - ��учше заменить. Мы всегда честно консультиру��м о целесообразности рем��нт��.',
+                      __html: 'Если стоимость р��монта превышает 60% от цены новой машины - ��учше заменить. Мы всегда честно консультиру��м �� целесообразности рем��нт��.',
                     }}
                   ></span>
                 </p>
@@ -3538,7 +3538,7 @@ to {transform: translateX(-2620px);}}
             <span className="textglavitogi frame1196-text250">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: 'Ремонт стира��ьны�� машин в сервисном центре "Ваше Н��звание" в Одессе',
+                  __html: 'Ремонт стира��ьны�� машин в сервисном цент��е "Ваше Н��звание" в Одессе',
                 }}
               ></span>
             </span>
@@ -3728,7 +3728,7 @@ to {transform: translateX(-2620px);}}
           <p className="textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ниже на сайте — карта проезда к нашей мастерской, а также наши те��ефоны...',
+                __html: 'Ниже на сайте — карта проезд�� к нашей мастерской, а также наши те��ефоны...',
               }}
             ></span>
           </p>
@@ -3928,7 +3928,7 @@ to {transform: translateX(-2620px);}}
             <p className="frame1196-text278">
               &quot;Я считаю это победа над стиральной м��шино��, которой 12
               лет))  О��ень круто!! ��лагодарю!! Она пала в руки мастера и
-              отдала��ь ем�� полностью, а н�� стала бры��аться. ��е знаю, что он там
+              отдала��ь ем�� полностью, а н�� стала бры��аться. ��е знаю, что он т��м
               с ней делал, но сейчас она как шелковая стирает мой ситцев���е
               кружевно��� белье&lt;3&quot;
             </p>
@@ -4204,133 +4204,6 @@ to {transform: translateX(-2620px);}}
             }}
           ></span>
         </button>
-        <div className="main-footer-isolation">
-        <footer className="frame1196-container229">
-          <div className="frame1196-container230">
-            <div className="frame1196-container231">
-              <strong className="frame1196-text281">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: 'Наши контакты',
-                  }}
-                ></span>
-              </strong>
-              <div className="frame1196-container232">
-                <div className="frame1196-container233">
-                  <p className="frame1196-text282">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Тел.: +38 (098) 467-13-52',
-                      }}
-                    ></span>
-                  </p>
-                  <p className="frame1196-text283">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Тел.: +38 (098) 467-13-52',
-                      }}
-                    ></span>
-                  </p>
-                </div>
-              </div>
-              <div className="frame1196-container234">
-                <p className="frame1196-text284">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Адрес: пл. Независимости, 1, Одесса, Одесская область, 65000',
-                    }}
-                  ></span>
-                </p>
-                <p className="frame1196-text285">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'E-mail: remstirmash@gmail.com',
-                    }}
-                  ></span>
-                </p>
-              </div>
-              <p className="frame1196-text286">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: 'Пн-Вс: 9:00-21:00',
-                  }}
-                ></span>
-              </p>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="frame1196-icon403"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-            </div>
-            <div className="frame1196-container235">
-              <div className="frame1196-container236">
-                <strong className="frame1196-text287">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Оставьте заяв����у на бесплатный выезд мастера',
-                    }}
-                  ></span>
-                </strong>
-                <button type="button" className="frame1196-button5 button">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Заказать мастера',
-                    }}
-                  ></span>
-                </button>
-              </div>
-              <div className="frame1196-container237">
-                <iframe
-                  src="https://www.google.com/maps?q=пл. Н��зависимости, 1, Одесса, О��ес��кая область, 65000&amp;output=embed"
-                  address="пл. Незави����имости, 1, Одесса, Одесская область, 65000"
-                  className="frame1196-google-maps"
-                ></iframe>
-              </div>
-            </div>
-            <nav className="frame1196-container238">
-              <Link href="/">
-                <span className={`frame1196-text288 ${router.pathname === '/' ? 'frame1196-nav-active' : ''}`}>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Главная',
-                    }}
-                  ></span>
-                </span>
-              </Link>
-              <Link href="/vikup">
-                <span className={`frame1196-text289 ${router.pathname === '/vikup' ? 'frame1196-nav-active' : ''}`}>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Выкуп б/y машин',
-                    }}
-                  ></span>
-                </span>
-              </Link>
-              <Link href="/articles">
-                <span className={`frame1196-text290 ${isProblemPage ? 'frame1196-nav-active' : ''}`}>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Статьи',
-                    }}
-                  ></span>
-                </span>
-              </Link>
-            </nav>
-          </div>
-        </footer>
-        </div>
         <span className="frame1196-text291">
           <span className="frame1196-text292">&quot;Ва���е название&quot;</span>
           <span>: ��ервис по ре��онту стир��льных ма��ин</span>
@@ -4342,6 +4215,7 @@ to {transform: translateX(-2620px);}}
           src="/backgrounds/vector21-1500w.png"
           className="frame1196-vector"
         />
+        <MainFooter />
       </main>
       <style jsx>
         {`
@@ -8706,7 +8580,7 @@ to {transform: translateX(-2620px);}}
             }
           }
 
-          /* Отдельный брейкпоинт для хедера */
+          /* Отдельный брейкпоинт для ��едера */
           @media (max-width: 1525px) {
             .frame1196-container103 {
               gap: var(--dl-layout-space-halfunit);
