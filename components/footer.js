@@ -1,9 +1,25 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 import Blue from './blue'
 import Blue1 from './blue1'
 import Blue2 from './blue2'
 
 const Footer = () => {
+  const router = useRouter()
+
+  // Проверяем, является ли текущая страница страницей проблемы
+  const isProblemPage = router.pathname && (
+    router.pathname.includes('NESLIVAETIVODU') ||
+    router.pathname.includes('NEGREETIVODU') ||
+    router.pathname.includes('PROTEKAET') ||
+    router.pathname.includes('SILNOSHUMIT') ||
+    router.pathname.includes('NEVKLUCHAETSA') ||
+    router.pathname.includes('ZAVISAETNAPROGRAMME') ||
+    router.pathname.includes('NEOTJIMAET') ||
+    router.pathname.includes('NENABIRRAETVODU') ||
+    router.pathname.includes('NEOTKRIVATSADVERCA')
+  )
 
   return (
     <div className="footer-container">
@@ -23,7 +39,7 @@ const Footer = () => {
           <br className="footer-text-break2" />
           <span className="footer-text-part5">Просто позвоните или</span>
           <span className="footer-text-link">оставьте заявку</span>
-          <span className="footer-text-part6">, и мы вам перезвоним.</span>
+          <span className="footer-text-part6">, и м�� вам перезвоним.</span>
         </p>
         <div className="footer-container-main">
           <svg
@@ -150,7 +166,6 @@ const Footer = () => {
             <img
               alt=""
               src="/ICONS/1.svg"
-              loading="lazy"
               className="footer-service-icon1"
             />
           </div>
@@ -205,7 +220,6 @@ const Footer = () => {
             <img
               alt=""
               src="/ICONS/25.svg"
-              loading="lazy"
               className="footer-service-icon2"
             />
           </div>
@@ -260,7 +274,6 @@ const Footer = () => {
             <img
               alt=""
               src="/ICONS/3.svg"
-              loading="lazy"
               className="footer-service-icon3"
             />
           </div>

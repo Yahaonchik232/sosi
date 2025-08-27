@@ -1,7 +1,22 @@
 import React from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const MainFooter = () => {
+  const router = useRouter()
+
+  // Проверяем, является ли текущая страница страницей проблемы
+  const isProblemPage = router.pathname && (
+    router.pathname.includes('NESLIVAETIVODU') ||
+    router.pathname.includes('NEGREETIVODU') ||
+    router.pathname.includes('PROTEKAET') ||
+    router.pathname.includes('SILNOSHUMIT') ||
+    router.pathname.includes('NEVKLUCHAETSA') ||
+    router.pathname.includes('ZAVISAETNAPROGRAMME') ||
+    router.pathname.includes('NEOTJIMAET') ||
+    router.pathname.includes('NENABIRRAETVODU') ||
+    router.pathname.includes('NEOTKRIVATSADVERCA')
+  )
 
   return (
     <div className="main-footer-isolation">
@@ -79,7 +94,7 @@ const MainFooter = () => {
               <strong className="frame1196-text287">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Оставьте заявку на бесплатный выезд мастера',
+                    __html: 'Оставьте заявку на бесплатный ��ыезд мастера',
                   }}
                 ></span>
               </strong>
@@ -100,26 +115,32 @@ const MainFooter = () => {
             </div>
           </div>
           <nav className="frame1196-container238">
-            <Link href="/" className="frame1196-text288">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: 'Главная',
-                }}
-              ></span>
+            <Link href="/">
+              <span className={`frame1196-text288 ${router.pathname === '/' ? 'frame1196-nav-active' : ''}`}>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: 'Главная',
+                  }}
+                ></span>
+              </span>
             </Link>
-            <Link href="/vikup" className="frame1196-text289">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: 'Выкуп б/y машин',
-                }}
-              ></span>
+            <Link href="/vikup">
+              <span className={`frame1196-text289 ${router.pathname === '/vikup' ? 'frame1196-nav-active' : ''}`}>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: 'Выкуп б/y машин',
+                  }}
+                ></span>
+              </span>
             </Link>
-            <Link href="#" className="frame1196-text290">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: 'Статьи',
-                }}
-              ></span>
+            <Link href="/articles">
+              <span className={`frame1196-text290 ${isProblemPage ? 'frame1196-nav-active' : ''}`}>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: 'Статьи',
+                  }}
+                ></span>
+              </span>
             </Link>
           </nav>
         </div>
@@ -339,6 +360,7 @@ const MainFooter = () => {
           .frame1196-text288,
           .frame1196-text289,
           .frame1196-text290 {
+            color: #000000;
             font-size: 15px;
             font-style: normal;
             font-family: 'Noto Serif SC';
@@ -348,13 +370,16 @@ const MainFooter = () => {
             transition: color 0.3s ease;
           }
 
-          .frame1196-text288 {
-            color: #87ceeb;
+          /* Hover эффекты для навигации в футере */
+          .frame1196-text288:hover,
+          .frame1196-text289:hover,
+          .frame1196-text290:hover {
+            color: #87ceeb !important;
           }
 
-          .frame1196-text289,
-          .frame1196-text290 {
-            color: #000;
+          /* Активное состояние навигации */
+          .frame1196-nav-active {
+            color: #87ceeb !important;
           }
 
           .frame1196-text289:hover,

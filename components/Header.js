@@ -62,7 +62,7 @@ const Header = () => {
           <div className="frame1196-obshiy">
             <div className="frame1196-korobki">
               <Link href="/">
-                <div className="frame1196-container105">
+                <div className={`${router.pathname === '/' ? 'frame1196-container105' : 'frame1196-container105-inactive'}`}>
                   <span className="frame1196-text101">
                     <span
                       dangerouslySetInnerHTML={{
@@ -73,7 +73,7 @@ const Header = () => {
                 </div>
               </Link>
               <Link href="/vikup">
-                <div className="frame1196-container106">
+                <div className={`${router.pathname === '/vikup' ? 'frame1196-container105' : 'frame1196-container105-inactive'}`}>
                   <span className="frame1196-text102">
                     <span
                       dangerouslySetInnerHTML={{
@@ -83,15 +83,17 @@ const Header = () => {
                   </span>
                 </div>
               </Link>
-              <div className="frame1196-container107">
-                <span className="frame1196-text103">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Статьи',
-                    }}
-                  ></span>
-                </span>
-              </div>
+              <Link href="/articles">
+                <div className={`${isProblemPage ? 'frame1196-container105' : 'frame1196-container105-inactive'}`}>
+                  <span className="frame1196-text103">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: 'Статьи',
+                      }}
+                    ></span>
+                  </span>
+                </div>
+              </Link>
             </div>
             <div className="frame1196-telephonadres">
               <div className="frame1196-container108">
@@ -211,27 +213,30 @@ const Header = () => {
               </button>
             </div>
             <nav className="frame1196-sidebar-nav">
-              <a
-                href="/"
-                className={`frame1196-sidebar-link ${router.pathname === '/' ? 'frame1196-sidebar-link-active' : ''}`}
-                style={{ color: router.pathname === '/' ? '#87ceeb !important' : 'white !important' }}
-              >
-                ГЛАВНАЯ
-              </a>
-              <a
-                href="/vikup"
-                className={`frame1196-sidebar-link ${router.pathname === '/vikup' ? 'frame1196-sidebar-link-active' : ''}`}
-                style={{ color: router.pathname === '/vikup' ? '#87ceeb !important' : 'white !important' }}
-              >
-                ВЫКУП Б/У МАШИН
-              </a>
-              <a
-                href="#"
-                className={`frame1196-sidebar-link ${isProblemPage ? 'frame1196-sidebar-link-active' : ''}`}
-                style={{ color: isProblemPage ? '#87ceeb !important' : 'white !important' }}
-              >
-                СТАТЬИ
-              </a>
+              <Link href="/">
+                <a
+                  className={`frame1196-sidebar-link ${router.pathname === '/' ? 'frame1196-sidebar-link-active' : ''}`}
+                  style={{ color: router.pathname === '/' ? '#87ceeb !important' : 'white !important' }}
+                >
+                  ГЛАВНАЯ
+                </a>
+              </Link>
+              <Link href="/vikup">
+                <a
+                  className={`frame1196-sidebar-link ${router.pathname === '/vikup' ? 'frame1196-sidebar-link-active' : ''}`}
+                  style={{ color: router.pathname === '/vikup' ? '#87ceeb !important' : 'white !important' }}
+                >
+                  ВЫКУП Б/У МАШИН
+                </a>
+              </Link>
+              <Link href="/articles">
+                <a
+                  className={`frame1196-sidebar-link ${isProblemPage ? 'frame1196-sidebar-link-active' : ''}`}
+                  style={{ color: isProblemPage ? '#87ceeb !important' : 'white !important' }}
+                >
+                  СТАТЬИ
+                </a>
+              </Link>
             </nav>
           </div>
         </div>
@@ -348,6 +353,30 @@ const Header = () => {
             border-radius: 8px;
             justify-content: center;
             background-color: #87ceeb;
+            transition: all 0.3s ease;
+            cursor: pointer;
+          }
+          .frame1196-container105:hover {
+            background-color: #5bb8e8;
+            box-shadow: 0 0 15px rgba(135, 206, 235, 0.6);
+            transform: translateY(-1px);
+          }
+          .frame1196-container105-inactive {
+            flex: 0 0 auto;
+            width: 183px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            border-radius: 8px;
+            justify-content: center;
+            background-color: rgba(46, 51, 55, 0.41);
+            transition: all 0.3s ease;
+            cursor: pointer;
+          }
+          .frame1196-container105-inactive:hover {
+            background-color: #87ceeb;
+            box-shadow: 0 0 15px rgba(135, 206, 235, 0.6);
+            transform: translateY(-1px);
           }
           .frame1196-text101 {
             color: #ffffff;
@@ -485,7 +514,7 @@ const Header = () => {
           }
           .frame1196-icon104 {
             top: -10px;
-            right: -8px;
+            right: -1px;
             width: 100%;
             height: 5px;
             position: absolute;
